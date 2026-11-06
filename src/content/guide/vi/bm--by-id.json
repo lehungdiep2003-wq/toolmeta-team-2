@@ -1,0 +1,92 @@
+{
+  "slug": "bm/by-id",
+  "category": "bm",
+  "title": "Chọn và lọc theo ID BM",
+  "description": "Hướng dẫn người dùng lọc hoặc chọn nhanh nhiều BM cùng lúc bằng danh sách ID.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    81,
+    82,
+    83,
+    84
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng lọc hoặc chọn nhanh nhiều BM cùng lúc bằng danh sách ID.",
+          "page": 81
+        },
+        {
+          "type": "paragraph",
+          "text": ".Hệ thống hiển thị popup: Chọn nhiều ID BM.",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 81
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 81
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 81
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng nhập ID BM vào field Nhập ID, mỗi ID một dòng .Hệ thống tự động đối chiếu với danh sách BM đang có.",
+          "page": 82
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button thao tác mong muốn. Hệ thống hiển thị kết quả đúng tiêu chí chọn",
+          "page": 83
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-by-id-p081-03.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 81",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 81",
+          "width": 34,
+          "height": 33,
+          "page": 81
+        },
+        {
+          "type": "image",
+          "src": "/guide-media/bm-by-id-p084-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 84",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 84",
+          "width": 1233,
+          "height": 328,
+          "page": 84
+        }
+      ]
+    }
+  ]
+}

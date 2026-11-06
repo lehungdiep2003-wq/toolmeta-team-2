@@ -1,0 +1,61 @@
+{
+  "slug": "ad/rename",
+  "category": "ad",
+  "title": "Đổi tên tài khoản quảng cáo",
+  "description": "Hướng dẫn người dùng đổi tên một hoặc nhiều tài khoản quảng cáo cùng lúc.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    33,
+    34
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng đổi tên một hoặc nhiều tài khoản quảng cáo cùng lúc.",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 33
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn AD → Hệ thống hiển thị danh sách tài khoản quảng cáo.",
+          "page": 33
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng tick chọn tài khoản cần đổi tên. Người dùng nhấn Đổi tên tại bảng công cụ → Hệ thống mở form nhập thông tin.",
+          "page": 33
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện nhập tên mới vào field Tên mới.",
+          "page": 34
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Bắt đầu] để lưu. Hệ thống hiển thị thông báo: Xong 1/1 và xem kết quả trên bảng tại cột hoạt động",
+          "page": 34
+        }
+      ]
+    }
+  ]
+}

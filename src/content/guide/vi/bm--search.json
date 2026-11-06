@@ -1,0 +1,49 @@
+{
+  "slug": "bm/search",
+  "category": "bm",
+  "title": "Tìm kiếm Business Manager",
+  "description": "Hướng dẫn tìm kiếm business manager theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    89,
+    90
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng lọc nhanh danh sách BM.",
+          "page": 89
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 89
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 89
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhập tìm kiếm theo tên BM hoặc ID BM, hệ thống hiển thị kết quả phù hợp với tiêu chí tìm kiếm",
+          "page": 90
+        }
+      ]
+    }
+  ]
+}

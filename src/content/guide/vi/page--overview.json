@@ -1,0 +1,48 @@
+{
+  "slug": "page/overview",
+  "category": "page",
+  "title": "Tổng quan Fanpage / PAGE",
+  "description": "Hướng dẫn người dùng xem danh sách Trang (Page), theo dõi trạng thái, thu nhập, quyền quản trị và thực hiện thao tác hàng loạt trên các Page được chọn.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    138,
+    139
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng xem danh sách Trang (Page), theo dõi trạng thái, thu nhập, quyền quản trị và thực hiện thao tác hàng loạt trên các Page được chọn.",
+          "page": 138
+        },
+        {
+          "type": "paragraph",
+          "text": "Giao diện tổng quan màn hình Page Màn hình gồm 4 khu vực:  Thanh công cụ (phía trên), Bảng danh sách Page (chính giữa), Bảng công cụ (bên phải) và Thanh thống kê (phía dưới).",
+          "page": 139
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 138
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu chức năng, chọn Page → Hệ thống hiển thị danh sách Page.",
+          "page": 138
+        }
+      ]
+    }
+  ]
+}

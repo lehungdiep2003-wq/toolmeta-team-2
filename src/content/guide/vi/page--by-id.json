@@ -1,0 +1,82 @@
+{
+  "slug": "page/by-id",
+  "category": "page",
+  "title": "Chọn Page theo ID",
+  "description": "Hướng dẫn người dùng chọn nhanh nhiều Page cùng lúc bằng danh sách ID.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    146,
+    147,
+    148
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng chọn nhanh nhiều Page cùng lúc bằng danh sách ID.",
+          "page": 146
+        },
+        {
+          "type": "paragraph",
+          "text": ".Hệ thống hiển thị popup: Chọn nhiều ID PAGE.",
+          "page": 147
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 146
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Page → Hệ thống hiển thị danh sách Page.",
+          "page": 146
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 147
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng nhập ID Page vào field Nhập ID, mỗi ID một dòng .Hệ thống tự động đối chiếu với danh sách Page đang có.",
+          "page": 148
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Chọn] . Hệ thống hiển thị kết quả đúng tiêu chí chọn",
+          "page": 148
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/page-by-id-p147-02.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 147",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 147",
+          "width": 34,
+          "height": 33,
+          "page": 147
+        }
+      ]
+    }
+  ]
+}

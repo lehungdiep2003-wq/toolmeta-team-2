@@ -1,0 +1,97 @@
+{
+  "slug": "page/filter",
+  "category": "page",
+  "title": "Lọc trạng thái và quyền trên Page",
+  "description": "Mục đích: Hướng dẫn người dùng lọc danh sách Page theo trạng thái và quyền của tài khoản trên Page.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    143,
+    144,
+    145,
+    146
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mục đích: Hướng dẫn người dùng lọc danh sách Page theo trạng thái và quyền của tài khoản trên Page.",
+          "page": 143
+        },
+        {
+          "type": "paragraph",
+          "text": ".Hệ thống hiển thị popup: Lọc dữ liệu.",
+          "page": 144
+        },
+        {
+          "type": "paragraph",
+          "text": "Các nút khác trong bảng lọc:",
+          "page": 146
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 143
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Page → Hệ thống hiển thị danh sách Page.",
+          "page": 143
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 144
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng tick chọn các điều kiện cần lọc. Số bên phải mỗi điều kiện là số Page thỏa điều kiện đó.",
+          "page": 145
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Áp dụng]. Hệ thống hiển thị kết quả phù hợp với tiêu chí tìm kiếm",
+          "page": 145
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/page-filter-p144-02.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 144",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 144",
+          "width": 43,
+          "height": 32,
+          "page": 144
+        },
+        {
+          "type": "image",
+          "src": "/guide-media/page-filter-p146-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 146",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 146",
+          "width": 1233,
+          "height": 224,
+          "page": 146
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "categories": [
+    {
+      "id": "overview",
+      "label": "Tổng quan"
+    },
+    {
+      "id": "getting-started",
+      "label": "Bắt đầu sử dụng"
+    },
+    {
+      "id": "dashboard",
+      "label": "Dashboard"
+    },
+    {
+      "id": "settings",
+      "label": "Thiết lập"
+    },
+    {
+      "id": "ad",
+      "label": "Tài khoản quảng cáo — AD"
+    },
+    {
+      "id": "bm",
+      "label": "Business Manager — BM"
+    },
+    {
+      "id": "page",
+      "label": "Fanpage / PAGE"
+    },
+    {
+      "id": "troubleshooting",
+      "label": "Khắc phục sự cố"
+    },
+    {
+      "id": "support",
+      "label": "Hỗ trợ"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "overview/toolmeta",
+      "category": "overview",
+      "title": "Toolmeta là gì?",
+      "description": "Toolmeta là công cụ hỗ trợ quản lý và kiểm tra tài sản quảng cáo Facebook: tài khoản quảng cáo (AD), Business Manager (BM) và Fanpage (PAGE). Công cụ hoạt động qua extension trình duyệt, nên bắt buộc phải cài extension và đăng nhập trước khi dùng.",
+      "sourcePages": [
+        1
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "dashboard/overview",
+      "category": "dashboard",
+      "title": "Tổng quan Dashboard",
+      "description": "Cung cấp cho người dùng không gian trung tâm của Toolmeta ngay khi đăng nhập — theo dõi tài khoản hiện tại, kiểm tra trạng thái cài extension và đăng nhập, thao tác nhanh với extension và xem các bản cập nhật mới nhất của công cụ.",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "getting-started/install-extension",
+      "category": "getting-started",
+      "title": "Cài đặt Chrome Extension",
+      "description": "Hướng dẫn người dùng cài extension và đăng nhập để sử dụng Toolmeta. Đây là điều kiện bắt buộc trước khi dùng các chức năng khác.",
+      "sourcePages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "getting-started/sign-in",
+      "category": "getting-started",
+      "title": "Đăng nhập và đồng bộ tài khoản",
+      "description": "Hướng dẫn người dùng đăng nhập tài khoản để extension kết nối với Toolmeta. Sau khi đăng nhập, người dùng truy cập được dữ liệu tài khoản và sử dụng các chức năng AD, BM, PAGE cùng các tiện ích khác.",
+      "sourcePages": [
+        8,
+        9,
+        10
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "dashboard/update-history",
+      "category": "dashboard",
+      "title": "Lịch sử cập nhật",
+      "description": "Lịch Sử Cập Nhật tổng hợp các bản cập nhật mới nhất lấy từ hệ thống thông báo.",
+      "sourcePages": [
+        10
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "settings/overview",
+      "category": "settings",
+      "title": "Tổng quan thiết lập",
+      "description": "Giao diện tổng quan màn hình Thiết lập Bố cục màn hình: Màn hình gồm 2 khung: Cấu hình chung (bên trái) và Bảo mật truy cập (bên phải).",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "settings/language",
+      "category": "settings",
+      "title": "Đổi ngôn ngữ giao diện",
+      "description": "Hướng dẫn người dùng thay đổi ngôn ngữ hiển thị của Toolmeta (ví dụ Tiếng Việt, English) để thuận tiện khi thao tác trên giao diện.",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/overview",
+      "category": "ad",
+      "title": "Tổng quan tài khoản quảng cáo",
+      "description": "Hướng dẫn người dùng xem danh sách tài khoản quảng cáo (TKQC), theo dõi trạng thái, số dư, ngưỡng thanh toán và thực hiện thao tác hàng loạt trên các tài khoản được chọn.",
+      "sourcePages": [
+        16
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/toolbar",
+      "category": "ad",
+      "title": "Thanh công cụ AD",
+      "description": "Hướng dẫn thanh công cụ ad theo tài liệu Toolmeta.",
+      "sourcePages": [
+        17
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/columns",
+      "category": "ad",
+      "title": "Ý nghĩa các cột AD",
+      "description": "Mỗi dòng trong bảng là một tài khoản quảng cáo.",
+      "sourcePages": [
+        17
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/load",
+      "category": "ad",
+      "title": "Tải dữ liệu AD",
+      "description": "Hướng dẫn người dùng tải danh sách tài khoản quảng cáo vào bảng theo phương thức phù hợp, trước khi xem thông tin hoặc chạy công cụ.",
+      "sourcePages": [
+        18,
+        19,
+        20
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/filter",
+      "category": "ad",
+      "title": "Lọc tài khoản quảng cáo",
+      "description": "Hướng dẫn người dùng lọc danh sách tài khoản quảng cáo theo trạng thái và tiền tệ để nhanh chóng tìm đúng nhóm tài khoản cần thao tác.",
+      "sourcePages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/by-id",
+      "category": "ad",
+      "title": "Chọn và lọc theo ID AD",
+      "description": "Hướng dẫn người dùng lọc hoặc chọn nhanh nhiều tài khoản quảng cáo cùng lúc bằng cách nhập danh sách ID.",
+      "sourcePages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/reload",
+      "category": "ad",
+      "title": "Tải lại danh sách AD",
+      "description": "Hướng dẫn người dùng tải lại danh sách tài khoản quảng cáo để cập nhật thông tin mới nhất (trạng thái, số dư, ngưỡng, chi tiêu...) và đưa bảng về trạng thái ban đầu sau khi lọc.",
+      "sourcePages": [
+        26,
+        27
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/search",
+      "category": "ad",
+      "title": "Tìm kiếm tài khoản quảng cáo",
+      "description": "Hướng dẫn người dùng lọc nhanh danh sách TKQC.",
+      "sourcePages": [
+        27,
+        28
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/tools",
+      "category": "ad",
+      "title": "Thêm và ẩn công cụ AD",
+      "description": "Hướng dẫn người dùng chọn những công cụ hiển thị trong bảng công cụ, giúp gọn giao diện và chỉ giữ lại các công cụ thường dùng.",
+      "sourcePages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/display-columns",
+      "category": "ad",
+      "title": "Tùy chỉnh cột AD",
+      "description": "Hướng dẫn người dùng chọn cột hiển thị và sắp xếp lại thứ tự cột cho phù hợp với nhu cầu theo dõi",
+      "sourcePages": [
+        31,
+        32
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "ad/rename",
+      "category": "ad",
+      "title": "Đổi tên tài khoản quảng cáo",
+      "description": "Hướng dẫn người dùng đổi tên một hoặc nhiều tài khoản quảng cáo cùng lúc.",
+      "sourcePages": [
+        33,
+        34
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/overview",
+      "category": "bm",
+      "title": "Tổng quan Business Manager",
+      "description": "Hướng dẫn người dùng xem danh sách Business Manager (BM), theo dõi trạng thái, xác minh doanh nghiệp, tài khoản quảng cáo trong BM và thực hiện thao tác hàng loạt trên các BM được chọn.",
+      "sourcePages": [
+        73,
+        74
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/toolbar",
+      "category": "bm",
+      "title": "Thanh công cụ BM",
+      "description": "Hướng dẫn thanh công cụ bm theo tài liệu Toolmeta.",
+      "sourcePages": [
+        74
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/columns",
+      "category": "bm",
+      "title": "Ý nghĩa các cột BM",
+      "description": "Hướng dẫn ý nghĩa các cột bm theo tài liệu Toolmeta.",
+      "sourcePages": [
+        74,
+        75
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/statistics",
+      "category": "bm",
+      "title": "Thanh thống kê BM",
+      "description": "Hướng dẫn thanh thống kê bm theo tài liệu Toolmeta.",
+      "sourcePages": [
+        75,
+        76
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/load",
+      "category": "bm",
+      "title": "Tải dữ liệu BM",
+      "description": "Hướng dẫn người dùng tải danh sách BM vào bảng trước khi xem thông tin hoặc chạy công cụ.",
+      "sourcePages": [
+        76,
+        77,
+        78
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/filter",
+      "category": "bm",
+      "title": "Lọc và xem trạng thái xác minh BM",
+      "description": "Hướng dẫn người dùng lọc danh sách BM theo trạng thái hoạt động và trạng thái xác minh doanh nghiệp.",
+      "sourcePages": [
+        78,
+        79,
+        80,
+        81
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/by-id",
+      "category": "bm",
+      "title": "Chọn và lọc theo ID BM",
+      "description": "Hướng dẫn người dùng lọc hoặc chọn nhanh nhiều BM cùng lúc bằng danh sách ID.",
+      "sourcePages": [
+        81,
+        82,
+        83,
+        84
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/reload",
+      "category": "bm",
+      "title": "Tải lại danh sách BM",
+      "description": "Hướng dẫn người dùng cập nhật thông tin BM mới nhất và đưa bảng về trạng thái ban đầu sau khi lọc.",
+      "sourcePages": [
+        84
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/tools",
+      "category": "bm",
+      "title": "Thêm và ẩn công cụ BM",
+      "description": "Hướng dẫn người dùng chọn những công cụ hiển thị trong bảng công cụ, giúp gọn giao diện và chỉ giữ lại các công cụ thường dùng.",
+      "sourcePages": [
+        85,
+        86,
+        87
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/display-columns",
+      "category": "bm",
+      "title": "Tùy chỉnh cột BM",
+      "description": "Hướng dẫn người dùng chọn cột hiển thị và sắp xếp lại thứ tự cột cho phù hợp với nhu cầu theo dõi",
+      "sourcePages": [
+        87,
+        88,
+        89
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/search",
+      "category": "bm",
+      "title": "Tìm kiếm Business Manager",
+      "description": "Hướng dẫn tìm kiếm business manager theo tài liệu Toolmeta.",
+      "sourcePages": [
+        89,
+        90
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/rename",
+      "category": "bm",
+      "title": "Đổi tên Business Manager",
+      "description": "Hướng dẫn người dùng đổi tên một hoặc nhiều BM cùng lúc.",
+      "sourcePages": [
+        104,
+        105,
+        106
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "bm/check-info",
+      "category": "bm",
+      "title": "Check Info BM",
+      "description": "Hướng dẫn người dùng bật hoặc tắt việc kiểm tra thông tin chi tiết của BM (trạng thái LIVE/DIE, xác minh doanh nghiệp...) khi tải danh sách BM.",
+      "sourcePages": [
+        137,
+        138
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/overview",
+      "category": "page",
+      "title": "Tổng quan Fanpage / PAGE",
+      "description": "Hướng dẫn người dùng xem danh sách Trang (Page), theo dõi trạng thái, thu nhập, quyền quản trị và thực hiện thao tác hàng loạt trên các Page được chọn.",
+      "sourcePages": [
+        138,
+        139
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/toolbar",
+      "category": "page",
+      "title": "Thanh công cụ Page",
+      "description": "Hướng dẫn thanh công cụ page theo tài liệu Toolmeta.",
+      "sourcePages": [
+        139
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/columns",
+      "category": "page",
+      "title": "Ý nghĩa các cột Page",
+      "description": "Hướng dẫn ý nghĩa các cột page theo tài liệu Toolmeta.",
+      "sourcePages": [
+        139,
+        140
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/statistics",
+      "category": "page",
+      "title": "Thanh thống kê Page",
+      "description": "Hướng dẫn thanh thống kê page theo tài liệu Toolmeta.",
+      "sourcePages": [
+        140,
+        141
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/load",
+      "category": "page",
+      "title": "Tải dữ liệu Page",
+      "description": "Hướng dẫn người dùng tải danh sách page vào bảng trước khi xem thông tin hoặc chạy công cụ.",
+      "sourcePages": [
+        141,
+        142,
+        143
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/filter",
+      "category": "page",
+      "title": "Lọc trạng thái và quyền trên Page",
+      "description": "Mục đích: Hướng dẫn người dùng lọc danh sách Page theo trạng thái và quyền của tài khoản trên Page.",
+      "sourcePages": [
+        143,
+        144,
+        145,
+        146
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/by-id",
+      "category": "page",
+      "title": "Chọn Page theo ID",
+      "description": "Hướng dẫn người dùng chọn nhanh nhiều Page cùng lúc bằng danh sách ID.",
+      "sourcePages": [
+        146,
+        147,
+        148
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/reload",
+      "category": "page",
+      "title": "Tải lại danh sách Page",
+      "description": "Hướng dẫn người dùng cập nhật thông tin Page mới nhất và đưa bảng về trạng thái ban đầu sau khi lọc.",
+      "sourcePages": [
+        149
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/tools",
+      "category": "page",
+      "title": "Thêm và ẩn công cụ Page",
+      "description": "Hướng dẫn người dùng chọn những công cụ hiển thị trong bảng công cụ, giúp gọn giao diện và chỉ giữ lại các công cụ thường dùng.",
+      "sourcePages": [
+        150,
+        151,
+        152
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/display-columns",
+      "category": "page",
+      "title": "Tùy chỉnh cột Page",
+      "description": "Hướng dẫn người dùng chọn cột hiển thị và sắp xếp lại thứ tự cột cho phù hợp với nhu cầu theo dõi",
+      "sourcePages": [
+        152,
+        153,
+        154
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/search",
+      "category": "page",
+      "title": "Tìm kiếm Page",
+      "description": "Hướng dẫn người dùng lọc nhanh danh sách Page.",
+      "sourcePages": [
+        154,
+        155
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/livestream",
+      "category": "page",
+      "title": "Check Boots Livestream",
+      "description": "Hướng dẫn người dùng kiểm tra tính năng livestream của các Page.",
+      "sourcePages": [
+        185,
+        186
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "page/rename",
+      "category": "page",
+      "title": "Đổi tên Fanpage",
+      "description": "Hướng dẫn người dùng đổi tên một hoặc nhiều Page cùng lúc",
+      "sourcePages": [
+        187,
+        188,
+        189
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "troubleshooting/extension",
+      "category": "troubleshooting",
+      "title": "Extension chưa được nhận diện",
+      "description": "Xử lý thông báo yêu cầu cài extension và đăng nhập.",
+      "sourcePages": [
+        8,
+        10,
+        201
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "troubleshooting/update-history",
+      "category": "troubleshooting",
+      "title": "Không tải được lịch sử cập nhật",
+      "description": "Khắc phục lỗi tải lịch sử cập nhật được nêu trong tài liệu.",
+      "sourcePages": [
+        10,
+        201
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "support/find-article",
+      "category": "support",
+      "title": "Tìm bài hướng dẫn và hỗ trợ",
+      "description": "Tra cứu nội dung công khai trong Help Center Toolmeta.",
+      "sourcePages": [],
+      "status": "PUBLIC",
+      "locale": "vi"
+    },
+    {
+      "slug": "overview/requirements",
+      "category": "overview",
+      "title": "Điều kiện sử dụng",
+      "description": "Cài extension trình duyệt và đăng nhập trước khi dùng Toolmeta.",
+      "sourcePages": [
+        1,
+        10
+      ],
+      "status": "PUBLIC",
+      "locale": "vi"
+    }
+  ]
+}

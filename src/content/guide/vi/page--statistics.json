@@ -1,0 +1,29 @@
+{
+  "slug": "page/statistics",
+  "category": "page",
+  "title": "Thanh thống kê Page",
+  "description": "Hướng dẫn thanh thống kê page theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    140,
+    141
+  ],
+  "sections": [
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/page-statistics-p141-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 141",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 141",
+          "width": 1233,
+          "height": 224,
+          "page": 141
+        }
+      ]
+    }
+  ]
+}

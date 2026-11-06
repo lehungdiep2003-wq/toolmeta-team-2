@@ -1,0 +1,28 @@
+{
+  "slug": "bm/toolbar",
+  "category": "bm",
+  "title": "Thanh công cụ BM",
+  "description": "Hướng dẫn thanh công cụ bm theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    74
+  ],
+  "sections": [
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-toolbar-p074-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 74",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 74",
+          "width": 1233,
+          "height": 440,
+          "page": 74
+        }
+      ]
+    }
+  ]
+}

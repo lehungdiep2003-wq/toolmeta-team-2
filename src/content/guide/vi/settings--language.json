@@ -1,0 +1,82 @@
+{
+  "slug": "settings/language",
+  "category": "settings",
+  "title": "Đổi ngôn ngữ giao diện",
+  "description": "Hướng dẫn người dùng thay đổi ngôn ngữ hiển thị của Toolmeta (ví dụ Tiếng Việt, English) để thuận tiện khi thao tác trên giao diện.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    13,
+    14
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng thay đổi ngôn ngữ hiển thị của Toolmeta (ví dụ Tiếng Việt, English) để thuận tiện khi thao tác trên giao diện.",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng truy cập vào Toolmeta",
+          "page": 13
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Thiết Lập . Hệ thống hiển thị màn hình Cài đặt.",
+          "page": 13
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn dropdown Language — Ngôn ngữ để chọn ngôn ngữ mong muốn",
+          "page": 13
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Hệ thống tự động đổi giao diện sang ngôn ngữ đã chọn.",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/settings-language-p013-02.webp",
+          "caption": "Dropdown Language — Ngôn ngữ — bước 3",
+          "alt": "Dropdown Language — Ngôn ngữ — bước 3",
+          "width": 453,
+          "height": 43,
+          "page": 13,
+          "afterStep": "3"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Nhấn button Xóa Data sẽ xóa dữ liệu đã lưu, người dùng cần nhập lại License Key và cài đặt. Chỉ dùng khi thật sự cần.",
+          "page": 14
+        }
+      ]
+    }
+  ]
+}

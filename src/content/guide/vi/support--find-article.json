@@ -1,0 +1,31 @@
+{
+  "slug": "support/find-article",
+  "category": "support",
+  "title": "Tìm bài hướng dẫn và hỗ trợ",
+  "description": "Tra cứu nội dung công khai trong Help Center Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [],
+  "sections": [
+    {
+      "id": "search",
+      "title": "Tìm đúng bài viết",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nhập tên chức năng hoặc thao tác vào ô tìm kiếm. Có thể dùng Ctrl+K hoặc Cmd+K để mở tìm kiếm. Chọn danh mục ở thanh bên để xem các bài cùng nhóm."
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Liên hệ hỗ trợ",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dự án hiện chưa cấu hình đường dẫn liên hệ hỗ trợ công khai. Trong ứng dụng Toolmeta, bạn có thể mở mục Nhóm Hỗ Trợ theo tài liệu hướng dẫn."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "ad/reload",
+  "category": "ad",
+  "title": "Tải lại danh sách AD",
+  "description": "Hướng dẫn người dùng tải lại danh sách tài khoản quảng cáo để cập nhật thông tin mới nhất (trạng thái, số dư, ngưỡng, chi tiêu...) và đưa bảng về trạng thái ban đầu sau khi lọc.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    26,
+    27
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng tải lại danh sách tài khoản quảng cáo để cập nhật thông tin mới nhất (trạng thái, số dư, ngưỡng, chi tiêu...) và đưa bảng về trạng thái ban đầu sau khi lọc.",
+          "page": 26
+        },
+        {
+          "type": "paragraph",
+          "text": ".Hệ thống tải lại danh sách tài khoản",
+          "page": 27
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 26
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn AD → Hệ thống hiển thị danh sách tài khoản quảng cáo.",
+          "page": 26
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 27
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/ad-reload-p027-02.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 27",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 27",
+          "width": 32,
+          "height": 28,
+          "page": 27
+        }
+      ]
+    }
+  ]
+}

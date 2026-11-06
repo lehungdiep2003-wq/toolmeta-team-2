@@ -1,0 +1,39 @@
+{
+  "slug": "troubleshooting/extension",
+  "category": "troubleshooting",
+  "title": "Extension chưa được nhận diện",
+  "description": "Xử lý thông báo yêu cầu cài extension và đăng nhập.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    8,
+    10,
+    201
+  ],
+  "sections": [
+    {
+      "id": "resolve",
+      "title": "Các bước kiểm tra",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Tải lại trang bằng F5.",
+          "page": 201
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Kiểm tra extension đang được bật trong trình duyệt.",
+          "page": 201
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Nhấn Đồng bộ tài khoản trên Dashboard.",
+          "page": 201
+        }
+      ]
+    }
+  ]
+}

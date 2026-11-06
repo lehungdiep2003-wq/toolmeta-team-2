@@ -1,0 +1,28 @@
+{
+  "slug": "page/toolbar",
+  "category": "page",
+  "title": "Thanh công cụ Page",
+  "description": "Hướng dẫn thanh công cụ page theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    139
+  ],
+  "sections": [
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/page-toolbar-p139-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 139",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 139",
+          "width": 1233,
+          "height": 440,
+          "page": 139
+        }
+      ]
+    }
+  ]
+}

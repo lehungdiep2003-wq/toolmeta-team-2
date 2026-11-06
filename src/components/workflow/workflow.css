@@ -1,0 +1,71 @@
+#workflow.hiw-section { background: linear-gradient(180deg, #fff, #fafcfe); }
+#workflow .container { width: min(calc(100% - 64px), 1440px); }
+#workflow .hiw-heading { max-width: 900px; margin: 0 auto 66px; text-align: center; }
+#workflow .hiw-heading .eyebrow { margin-bottom: 23px; }
+#workflow .hiw-heading h2 { font-size: clamp(34px, 3.35vw, 50px); line-height: 1.2; letter-spacing: -1.9px; font-weight: 500; margin: 0 0 20px; color: #101626; }
+#workflow .hiw-heading h2 > span { position: relative; display: inline-block; isolation: isolate; color: #071d51; font-weight: 700; }
+#workflow .hiw-heading h2 > span::after { content: ""; position: absolute; z-index: -1; height: 7px; bottom: -2px; left: 0; right: 0; border-radius: 50% 30% 45% 25%; background: linear-gradient(90deg, #4391f570, #3f84e8, #4391f550); transform: rotate(-.8deg); }
+#workflow .hiw-heading p { max-width: 800px; margin: 0 auto; font-size: 18px; line-height: 1.65; color: #747984; }
+#workflow .hiw-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 42px; margin: 0; padding: 0; list-style: none; }
+#workflow .hiw-card { min-width: 0; position: relative; display: flex; flex-direction: column; padding: 38px 24px 24px; border: 1px solid #e6e8ec; border-radius: 25px; background: linear-gradient(155deg, #ffffff, #fdfeff); box-shadow: 0 15px 32px #16213b05; transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease; }
+#workflow .hiw-number { position: absolute; top: -24px; left: calc(50% - 24px); display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid #dee7f4; border-radius: 50%; background: linear-gradient(145deg, #f5f9fe, #d7e7fd); color: #082970; font-size: 17px; font-weight: 650; box-shadow: 0 3px 10px #16213b02; }
+#workflow .hiw-illustration { position: relative; width: 100%; height: 150px; border-radius: 36px; background: linear-gradient(150deg,#f6f9feaa,#ebf2fcb3); isolation: isolate; }
+#workflow .hiw-illustration > svg { position: relative; display: block; width: 100%; height: 100%; overflow: visible; }
+#workflow .hiw-glow { position: absolute; inset: 15% 6% 3%; z-index: -1; border-radius: 50%; background: radial-gradient(ellipse, #97bbee60, #dae6f845 55%, transparent 75%); opacity: .88; animation: hiw-breathe 6.5s ease-in-out infinite; }
+#workflow .hiw-float { transform-box: fill-box; transform-origin: center; animation: hiw-float 7s ease-in-out infinite; }
+#workflow .hiw-card[data-step="1"] .hiw-float { animation-duration: 7.8s; animation-delay: -2.2s; }
+#workflow .hiw-card[data-step="2"] .hiw-float { animation-duration: 8.4s; animation-delay: -4.1s; }
+#workflow .hiw-card[data-step="3"] .hiw-float { animation-duration: 7.4s; animation-delay: -1.3s; }
+#workflow .hiw-card[data-step="1"] .hiw-glow { animation-delay: -1s; }
+#workflow .hiw-card[data-step="2"] .hiw-glow { animation-delay: -3s; }
+#workflow .hiw-card[data-step="3"] .hiw-glow { animation-delay: -4.5s; }
+#workflow:not([data-active="true"]) :is(.hiw-float, .hiw-glow) { animation-play-state: paused; }
+#workflow .hiw-card h3 { color: #101626; font-size: clamp(20px, 1.55vw, 23px); font-weight: 600; line-height: 1.3; letter-spacing: -.8px; margin: 16px 0 11px; }
+#workflow .hiw-card > p { font-size: 15px; line-height: 1.65; color: #747984; margin: 0 0 20px; }
+#workflow .hiw-cta { display: inline-flex; align-items: center; justify-content: center; gap: 10px; align-self: flex-start; min-height: 44px; max-width: 100%; padding: 10px 16px; margin-top: auto; border: 1px solid transparent; border-radius: 99px; color: #061b4b; background: #e7effb; font-size: 14px; line-height: 1.35; font-weight: 500; transition: background 200ms, transform 200ms, border-color 200ms; }
+#workflow .hiw-cta svg { flex-shrink: 0; }
+#workflow .hiw-cta > svg:last-child { margin-left: 3px; transition: transform 200ms; }
+#workflow .hiw-cta:focus-visible { outline: 2px solid #16213b; outline-offset: 4px; }
+#workflow .hiw-cta:active { transform: translateY(1px); }
+#workflow .hiw-connector { position: absolute; width: 32px; height: 18px; right: -38px; top: 120px; color: #1b64d1; pointer-events: none; }
+@media (hover:hover) and (pointer:fine) {
+  #workflow .hiw-card:hover { transform: translateY(-4px); box-shadow: 0 20px 42px #16213b0b; border-color: #b7cce9; }
+  #workflow .hiw-card:hover .hiw-cta > svg:last-child { transform: translateX(3px); }
+  #workflow .hiw-cta:hover { background: #d7e5f9; border-color: #c0d2ec; transform: translateY(-2px); }
+}
+@media (min-width:768px) and (max-width:1279px) {
+  #workflow .hiw-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 52px 28px; }
+  #workflow .hiw-card { padding: 40px 28px 26px; }
+  #workflow .hiw-card h3 { font-size: 23px; }
+  #workflow .hiw-illustration { height: 170px; }
+  #workflow .hiw-connector { display: none; }
+}
+@media (max-width:767px) {
+  #workflow .container { width: calc(100% - 32px); }
+  #workflow .hiw-heading { margin-bottom: 56px; }
+  #workflow .hiw-heading .eyebrow { font-size: 11px; margin-bottom: 18px; }
+  #workflow .hiw-heading h2 { font-size: clamp(32px, 8.5vw, 40px); letter-spacing: -1.2px; line-height: 1.25; }
+  #workflow .hiw-heading p { font-size: 15px; line-height: 1.7; }
+  #workflow .hiw-grid { grid-template-columns: minmax(0,1fr); gap: 44px; }
+  #workflow .hiw-card { padding: 38px 26px 25px; }
+  #workflow .hiw-illustration { height: 170px; }
+  #workflow .hiw-card h3 { font-size: 23px; margin-top: 20px; }
+  #workflow .hiw-card > p { font-size: 15px; margin-bottom: 21px; }
+  #workflow .hiw-cta { align-self: stretch; min-height: 46px; }
+  #workflow .hiw-connector { display: none; }
+}
+#workflow[data-reveal="running"] .hiw-heading > *, #workflow[data-reveal="running"] .hiw-card { animation: hiw-enter 600ms ease both; }
+#workflow[data-reveal="running"] .hiw-heading h2 { animation-delay: 90ms; }
+#workflow[data-reveal="running"] .hiw-heading p { animation-delay: 180ms; }
+#workflow[data-reveal="running"] .hiw-card[data-step="0"] { animation-delay: 270ms; }
+#workflow[data-reveal="running"] .hiw-card[data-step="1"] { animation-delay: 360ms; }
+#workflow[data-reveal="running"] .hiw-card[data-step="2"] { animation-delay: 450ms; }
+#workflow[data-reveal="running"] .hiw-card[data-step="3"] { animation-delay: 540ms; }
+#workflow .hiw-card:focus-within { animation: none !important; }
+@keyframes hiw-enter { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes hiw-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes hiw-breathe { 0%,100% { opacity: .88; } 50% { opacity: .94; } }
+@media (prefers-reduced-motion:reduce) {
+  #workflow *, #workflow *::before, #workflow *::after { animation: none !important; transition: none !important; }
+  #workflow .hiw-card:hover, #workflow .hiw-cta:hover, #workflow .hiw-card:hover .hiw-cta > svg:last-child { transform: none; }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "bm/filter",
+  "category": "bm",
+  "title": "Lọc và xem trạng thái xác minh BM",
+  "description": "Hướng dẫn người dùng lọc danh sách BM theo trạng thái hoạt động và trạng thái xác minh doanh nghiệp.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    78,
+    79,
+    80,
+    81
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng lọc danh sách BM theo trạng thái hoạt động và trạng thái xác minh doanh nghiệp.",
+          "page": 78
+        },
+        {
+          "type": "paragraph",
+          "text": ".Hệ thống hiển thị popup: Lọc dữ liệu.",
+          "page": 78
+        },
+        {
+          "type": "paragraph",
+          "text": "Các nút khác trong bảng lọc:",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 78
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 78
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 78
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng tick chọn các điều kiện cần lọc. Số bên phải mỗi điều kiện là số tài khoản thỏa điều kiện đó.",
+          "page": 79
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Áp dụng]. Hệ thống hiển thị kết quả phù hợp với tiêu chí tìm kiếm",
+          "page": 80
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-filter-p078-03.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 78",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 78",
+          "width": 43,
+          "height": 32,
+          "page": 78
+        },
+        {
+          "type": "image",
+          "src": "/guide-media/bm-filter-p081-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 81",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 81",
+          "width": 1233,
+          "height": 224,
+          "page": 81
+        }
+      ]
+    }
+  ]
+}

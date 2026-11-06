@@ -1,0 +1,36 @@
+{
+  "slug": "overview/requirements",
+  "category": "overview",
+  "title": "Điều kiện sử dụng",
+  "description": "Cài extension trình duyệt và đăng nhập trước khi dùng Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    1,
+    10
+  ],
+  "sections": [
+    {
+      "id": "requirements",
+      "title": "Chuẩn bị trước khi thao tác",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Toolmeta hoạt động thông qua extension trình duyệt. Phải hoàn thành cả hai bước cài extension và đăng nhập để sử dụng các chức năng AD, BM, PAGE và tiện ích.",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "ready",
+      "title": "Sau khi thiết lập",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nhấn Đồng bộ tài khoản trên Dashboard để tải dữ liệu, sau đó vào AD, BM hoặc PAGE để xem và thao tác với tài sản.",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

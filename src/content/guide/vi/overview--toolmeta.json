@@ -1,0 +1,65 @@
+{
+  "slug": "overview/toolmeta",
+  "category": "overview",
+  "title": "Toolmeta là gì?",
+  "description": "Toolmeta là công cụ hỗ trợ quản lý và kiểm tra tài sản quảng cáo Facebook: tài khoản quảng cáo (AD), Business Manager (BM) và Fanpage (PAGE). Công cụ hoạt động qua extension trình duyệt, nên bắt buộc phải cài extension và đăng nhập trước khi dùng.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    1
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Toolmeta là công cụ hỗ trợ quản lý và kiểm tra tài sản quảng cáo Facebook: tài khoản quảng cáo (AD), Business Manager (BM) và Fanpage (PAGE). Công cụ hoạt động qua extension trình duyệt, nên bắt buộc phải cài extension và đăng nhập trước khi dùng.",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "first-steps",
+      "title": "Luồng bắt đầu sử dụng",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Cài extension Toolmeta.",
+          "page": 1
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Đăng nhập tài khoản.",
+          "page": 1
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Nhấn Đồng bộ tài khoản trên Dashboard để tải dữ liệu.",
+          "page": 1
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Vào AD / BM / PAGE để xem và thao tác với tài sản.",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "• Tên người dùng đang đăng nhập hiển thị ở góc trên bên phải màn hình.",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

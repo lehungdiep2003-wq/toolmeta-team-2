@@ -1,0 +1,43 @@
+{
+  "slug": "settings/overview",
+  "category": "settings",
+  "title": "Tổng quan thiết lập",
+  "description": "Giao diện tổng quan màn hình Thiết lập Bố cục màn hình: Màn hình gồm 2 khung: Cấu hình chung (bên trái) và Bảo mật truy cập (bên phải).",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    10,
+    11
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Giao diện tổng quan màn hình Thiết lập Bố cục màn hình: Màn hình gồm 2 khung: Cấu hình chung (bên trái) và Bảo mật truy cập (bên phải).",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 11
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Thiết Lập . Hệ thống hiển thị màn hình Cài đặt.",
+          "page": 11
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "bm/reload",
+  "category": "bm",
+  "title": "Tải lại danh sách BM",
+  "description": "Hướng dẫn người dùng cập nhật thông tin BM mới nhất và đưa bảng về trạng thái ban đầu sau khi lọc.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    84
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng cập nhật thông tin BM mới nhất và đưa bảng về trạng thái ban đầu sau khi lọc.",
+          "page": 84
+        },
+        {
+          "type": "paragraph",
+          "text": ". Hệ thống tải lại danh sách BM, bỏ các điều kiện lọc và bỏ chọn BM.",
+          "page": 84
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 84
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 84
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 84
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-reload-p084-03.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 84",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 84",
+          "width": 32,
+          "height": 28,
+          "page": 84
+        }
+      ]
+    }
+  ]
+}

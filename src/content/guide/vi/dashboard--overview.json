@@ -1,0 +1,88 @@
+{
+  "slug": "dashboard/overview",
+  "category": "dashboard",
+  "title": "Tổng quan Dashboard",
+  "description": "Cung cấp cho người dùng không gian trung tâm của Toolmeta ngay khi đăng nhập — theo dõi tài khoản hiện tại, kiểm tra trạng thái cài extension và đăng nhập, thao tác nhanh với extension và xem các bản cập nhật mới nhất của công cụ.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    1,
+    2
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cung cấp cho người dùng không gian trung tâm của Toolmeta ngay khi đăng nhập — theo dõi tài khoản hiện tại, kiểm tra trạng thái cài extension và đăng nhập, thao tác nhanh với extension và xem các bản cập nhật mới nhất của công cụ.",
+          "page": 1
+        },
+        {
+          "type": "paragraph",
+          "text": "Giao diện tổng quan màn hình Dashboard 1.  Banner Dashboard Khu vực đầu trang giới thiệu không gian làm việc trung tâm của Toolmeta và chứa các nút thao tác nhanh:",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng truy cập vào Toolmeta",
+          "page": 1
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Dashboard .Hệ thống hiển thị màn hình Dashboard",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/dashboard-overview-p002-02.webp",
+          "caption": "Khung Thông Tin Tài Khoản khi chưa cài extension và đăng nhập",
+          "alt": "Khung Thông Tin Tài Khoản khi chưa cài extension và đăng nhập",
+          "width": 956,
+          "height": 252,
+          "page": 2
+        },
+        {
+          "type": "image",
+          "src": "/guide-media/dashboard-overview-p002-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 2",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 2",
+          "width": 1233,
+          "height": 328,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "• Khi chưa cài extension hoặc chưa đăng nhập, hệ thống hiển thị thông báo \"Cần cài extension và đăng nhập\" kèm 2 bước cần hoàn thành (xem mục 3).",
+          "page": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "• Khi đã cài extension và đăng nhập thành công, khung này hiển thị thông tin tài khoản đang được theo dõi.",
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

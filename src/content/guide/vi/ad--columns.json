@@ -1,0 +1,101 @@
+{
+  "slug": "ad/columns",
+  "category": "ad",
+  "title": "Ý nghĩa các cột AD",
+  "description": "Mỗi dòng trong bảng là một tài khoản quảng cáo.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    17
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mỗi dòng trong bảng là một tài khoản quảng cáo.",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "fields",
+      "title": "Tra cứu cột dữ liệu",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Cột",
+            "Ý nghĩa"
+          ],
+          "rows": [
+            [
+              "Ô chọn",
+              "Chọn tài khoản cần thao tác; ô ở tiêu đề chọn tất cả."
+            ],
+            [
+              "STT",
+              "Số thứ tự."
+            ],
+            [
+              "Trạng thái",
+              "LIVE: đang hoạt động; DIE: bị vô hiệu hóa."
+            ],
+            [
+              "ID",
+              "ID tài khoản quảng cáo."
+            ],
+            [
+              "Tên TK",
+              "Tên tài khoản quảng cáo."
+            ],
+            [
+              "Số dư",
+              "Số dư hiện tại."
+            ],
+            [
+              "Ngưỡng",
+              "Ngưỡng thanh toán."
+            ],
+            [
+              "Chi tiêu",
+              "Số tiền đã chi tiêu."
+            ],
+            [
+              "Tiền tệ",
+              "Đơn vị tiền tệ: VND, USD, AED…"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/ad-columns-p017-02.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 17",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 17",
+          "width": 1233,
+          "height": 589,
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Kéo thanh cuộn ngang ở cuối bảng để xem các cột bị khuất.",
+          "page": 17
+        }
+      ]
+    }
+  ]
+}

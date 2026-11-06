@@ -1,0 +1,68 @@
+{
+  "slug": "page/reload",
+  "category": "page",
+  "title": "Tải lại danh sách Page",
+  "description": "Hướng dẫn người dùng cập nhật thông tin Page mới nhất và đưa bảng về trạng thái ban đầu sau khi lọc.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    149
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng cập nhật thông tin Page mới nhất và đưa bảng về trạng thái ban đầu sau khi lọc.",
+          "page": 149
+        },
+        {
+          "type": "paragraph",
+          "text": "Hệ thống tải lại danh sách Page, bỏ các điều kiện lọc và bỏ chọn Page.",
+          "page": 149
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 149
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Page → Hệ thống hiển thị danh sách Page.",
+          "page": 149
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 149
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/page-reload-p149-03.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 149",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 149",
+          "width": 32,
+          "height": 26,
+          "page": 149
+        }
+      ]
+    }
+  ]
+}

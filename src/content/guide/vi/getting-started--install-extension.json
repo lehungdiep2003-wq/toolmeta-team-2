@@ -1,0 +1,153 @@
+{
+  "slug": "getting-started/install-extension",
+  "category": "getting-started",
+  "title": "Cài đặt Chrome Extension",
+  "description": "Hướng dẫn người dùng cài extension và đăng nhập để sử dụng Toolmeta. Đây là điều kiện bắt buộc trước khi dùng các chức năng khác.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng cài extension và đăng nhập để sử dụng Toolmeta. Đây là điều kiện bắt buộc trước khi dùng các chức năng khác.",
+          "page": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng tải và thêm extension Toolmeta vào trình duyệt Chrome. Extension là thành phần bắt buộc để công cụ hoạt động, giúp Toolmeta lấy dữ liệu tài khoản và thực hiện các thao tác với AD, BM, PAGE.",
+          "page": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Thư mục extension sau khi giải nén",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng truy cập vào Toolmeta",
+          "page": 3
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Dashboard .Hệ thống hiển thị màn hình Dashboard",
+          "page": 3
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng thực hiện nhấn vào button [Cài đặt] để Cài extension aezcheck tool Tools (bắt buộc để công cụ hoạt động). Hệ thống tải file extension (dạng .zip) về máy.",
+          "page": 3
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng mở thư mục chứa file vừa tải (thường là thư mục Downloads), nhấn chuột phải vào file .zip và chọn Giải nén (Extract). Ghi nhớ vị trí thư mục sau khi giải nén.",
+          "page": 4
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Mở trình duyệt Chrome, người dùng nhập địa chỉ chrome://extensions vào thanh địa chỉ và nhấn Enter. Hoặc nhấn biểu tượng ⋮  ở góc trên bên phải chọn Tiện ích mở rộng (Extensions) → Chọn tab Quản lý tiện ích (Manage Extensions).",
+          "page": 5
+        },
+        {
+          "type": "step",
+          "number": "6",
+          "text": "Tại góc trên bên phải trang Tiện ích, người dùng bật toggle [Chế độ dành cho nhà phát triển](Developer mode).",
+          "page": 6
+        },
+        {
+          "type": "step",
+          "number": "7",
+          "text": "Người dùng nhấn button [Tải tiện ích đã giải nén] (Load unpacked) . Người dùng chọn thư mục extension đã giải nén ở Bước 4, nhấn button Chọn thư mục (Select Folder).",
+          "page": 6
+        },
+        {
+          "type": "step",
+          "number": "8",
+          "text": "Extension aezcheck tool Tools xuất hiện trong danh sách tiện ích. Người dùng kiểm tra công tắc của extension đang ở trạng thái bật.",
+          "page": 7
+        },
+        {
+          "type": "step",
+          "number": "9",
+          "text": "Người dùng nhấn biểu tượng mảnh ghép trên thanh công cụ Chrome. Nhấn vào biểu tượng ghim cạnh aezcheck tool Tools để extension luôn hiển thị trên thanh công cụ.",
+          "page": 8
+        },
+        {
+          "type": "step",
+          "number": "10",
+          "text": "Người dùng quay lại Toolmeta và thực hiện tải lại trang (F5) để hệ thống nhận extension.",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/getting-started-install-extension-p003-02.webp",
+          "caption": "Nút Cài đặt trong khung Thông Tin Tài Khoản — bước 3",
+          "alt": "Nút Cài đặt trong khung Thông Tin Tài Khoản — bước 3",
+          "width": 956,
+          "height": 252,
+          "page": 3,
+          "afterStep": "3"
+        },
+        {
+          "type": "image",
+          "src": "/guide-media/getting-started-install-extension-p006-01.webp",
+          "caption": "Chrome: Chế độ dành cho nhà phát triển và Tải tiện ích đã giải nén — bước 6–7",
+          "alt": "Chrome: Chế độ dành cho nhà phát triển và Tải tiện ích đã giải nén — bước 6–7",
+          "width": 1148,
+          "height": 106,
+          "page": 6,
+          "afterStep": "6"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "",
+          "page": 8
+        },
+        {
+          "type": "paragraph",
+          "text": "• Không xóa hoặc di chuyển thư mục extension sau khi cài. Nếu xóa, extension sẽ ngừng hoạt động.",
+          "page": 8
+        },
+        {
+          "type": "paragraph",
+          "text": "• Khi có bản cập nhật mới: tải file mới, giải nén đè lên thư mục cũ, sau đó vào chrome://extensions và bấm biểu tượng tải lại (Reload) trên thẻ extension.",
+          "page": 8
+        }
+      ]
+    }
+  ]
+}

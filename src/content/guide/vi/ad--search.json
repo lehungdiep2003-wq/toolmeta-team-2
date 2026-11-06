@@ -1,0 +1,49 @@
+{
+  "slug": "ad/search",
+  "category": "ad",
+  "title": "Tìm kiếm tài khoản quảng cáo",
+  "description": "Hướng dẫn người dùng lọc nhanh danh sách TKQC.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    27,
+    28
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng lọc nhanh danh sách TKQC.",
+          "page": 27
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 27
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn AD → Hệ thống hiển thị danh sách tài khoản quảng cáo.",
+          "page": 27
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhập tìm kiếm theo tên TKQC hoặc ID TKQC, hệ thống hiển thị kết quả phù hợp với tiêu chí tìm kiếm",
+          "page": 28
+        }
+      ]
+    }
+  ]
+}

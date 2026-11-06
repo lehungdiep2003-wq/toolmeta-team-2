@@ -1,0 +1,78 @@
+{
+  "slug": "page/load",
+  "category": "page",
+  "title": "Tải dữ liệu Page",
+  "description": "Hướng dẫn người dùng tải danh sách page vào bảng trước khi xem thông tin hoặc chạy công cụ.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    141,
+    142,
+    143
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng tải danh sách page vào bảng trước khi xem thông tin hoặc chạy công cụ.",
+          "page": 141
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 141
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu chức năng, chọn Page → Hệ thống hiển thị danh sách Page.",
+          "page": 141
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn button [Bắt đầu] trên thanh công cụ. Hệ thống hiển thị popup: Phương thức tải.",
+          "page": 141
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện chọn phương thức tải và bật/ tắt lựa chọn tính năng",
+          "page": 142
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Tải dữ liệu]. Hệ thống hiển thị thông báo: Đã tải X mục thành công và  tải danh sách Page vào bảng.",
+          "page": 143
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/page-load-p142-02.webp",
+          "caption": "Phương thức tải Page — bước 4",
+          "alt": "Phương thức tải Page — bước 4",
+          "width": 220,
+          "height": 174,
+          "page": 142,
+          "afterStep": "4"
+        }
+      ]
+    }
+  ]
+}

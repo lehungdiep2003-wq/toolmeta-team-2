@@ -1,0 +1,314 @@
+#top .hero-scene,
+.hero-scene {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* The viewBox includes card geometry and shadow gutters; contain the ambient glow. */
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+#top,
+.hero-scene {
+  --hero-motion-fast: 200ms;
+  --hero-motion-entrance: 600ms;
+  --hero-motion-orbit: 18s;
+  --hero-motion-ease: cubic-bezier(.22, 1, .36, 1);
+  --hero-motion-factor: 1;
+}
+
+.hero-visual-motion,
+.hero-particle-motion {
+  animation: hero-layer-float var(--hero-motion-duration, 7s) ease-in-out var(--hero-motion-delay, 0s) infinite;
+}
+
+.hero-visual-motion {
+  /* CSS px inside an SVG transform are viewBox units. Compensate once for
+     rendering scale so mobile amplitude is not reduced twice. */
+  --hero-motion-travel: calc(var(--hero-motion-factor, 1) * var(--hero-motion-unit-scale, 1));
+}
+
+.hero-motion-core {
+  animation-name: hero-core-float;
+  will-change: transform;
+}
+
+.hero-motion-cursor { animation-name: hero-cursor-drift; }
+
+.hero-scene[data-motion-paused="true"] :is(.hero-visual-motion, .hero-particle-motion, .hero-dot-motion, .hero-orbit-flow, .hero-glow-motion) {
+  animation-play-state: paused;
+}
+.hero-scene[data-motion-paused="true"] .hero-motion-core { will-change: auto; }
+
+.hero-glow-motion { animation: hero-glow-breathe 11s ease-in-out infinite; }
+.hero-orbit-flow { animation: hero-orbit-flow var(--hero-motion-orbit, 30s) linear infinite; }
+.hero-particle-motion {
+  offset-anchor: 0px 0px;
+  offset-rotate: 0deg;
+  animation: hero-particle-orbit var(--hero-motion-duration, 13s) linear var(--hero-motion-delay, 0s) infinite;
+}
+.hero-particle-mid {
+  --hero-motion-duration: 13s;
+  --hero-motion-delay: -2s;
+  offset-path: path("M0 0 C90 -185 390 -90 340 160 C300 400 0 440 -60 220 C-110 90 -30 61.6667 0 0");
+}
+.hero-particle-near {
+  --hero-motion-duration: 17s;
+  --hero-motion-delay: -5s;
+  offset-path: path("M0 0 C-160 -30 -190 -360 0 -450 C190 -540 340 -180 150 -30 C90 30 40 7.5 0 0");
+}
+@keyframes hero-particle-orbit { from { offset-distance: 0%; } to { offset-distance: 100%; } }
+
+/* Dedicated outer groups move; the inner translate/rotate/skew/scale stays intact. */
+@keyframes hero-layer-float {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(calc(var(--hero-motion-x, 0px) * var(--hero-motion-travel, 1)), calc(var(--hero-motion-distance, -4px) * var(--hero-motion-travel, 1))); }
+}
+
+@keyframes hero-core-float {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(calc(var(--hero-motion-x, 2px) * var(--hero-motion-travel, 1)), calc(var(--hero-motion-distance, -10px) * var(--hero-motion-travel, 1))); }
+}
+
+@keyframes hero-cursor-drift {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(calc(6px * var(--hero-motion-travel, 1)), calc(-7px * var(--hero-motion-travel, 1))); }
+  50% { transform: translate(0, calc(-10px * var(--hero-motion-travel, 1))); }
+  75% { transform: translate(calc(-5px * var(--hero-motion-travel, 1)), calc(-4px * var(--hero-motion-travel, 1))); }
+}
+
+@keyframes hero-glow-breathe {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .94; }
+}
+
+/* Shift only the existing dashed orbit. A 36-unit offset is three dash periods,
+   so the loop is continuous without rotating the asymmetric artwork. */
+@keyframes hero-orbit-flow {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: -36; }
+}
+
+/* CSS-only, once on mount. Underlying content stays visible if animation fails;
+   backwards fill applies the initial pose only during the short stagger delay. */
+#top .hero-copy > :is(.eyebrow, h1, p, .hero-actions, .hero-note),
+#top .hero-art {
+  animation: hero-enter var(--hero-motion-entrance) var(--hero-motion-ease) calc(var(--hero-enter-order, 0) * 100ms) 1 backwards;
+}
+
+#top .hero-copy > .eyebrow { --hero-enter-order: 0; }
+#top .hero-copy > h1 { --hero-enter-order: 1; }
+#top .hero-copy > p { --hero-enter-order: 2; }
+#top .hero-copy > .hero-actions { --hero-enter-order: 3; }
+#top .hero-copy > .hero-note { --hero-enter-order: 4; }
+#top .hero-art { --hero-enter-order: 5; }
+
+@keyframes hero-enter {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#top .hero-copy:focus-within > :is(.eyebrow, h1, p, .hero-actions, .hero-note) {
+  /* Reveal keyboard targets without resetting the once-per-entry animation. */
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+#top .hero-actions .button {
+  transition: transform var(--hero-motion-fast) ease, box-shadow var(--hero-motion-fast) ease, border-color var(--hero-motion-fast) ease, background-color var(--hero-motion-fast) ease;
+}
+
+#top .hero-actions .button > span { transition: transform var(--hero-motion-fast) ease; }
+#top .hero-actions .button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(32,96,178,.2);
+}
+#top .hero-actions .button-outline:hover {
+  transform: none;
+  border-color: #a9b3c4;
+  background-color: #f0f5fb;
+}
+#top .hero-actions .button:is(:hover, :focus-visible) > span { transform: translateX(3px); }
+#top .hero-actions .button:focus-visible { outline: 2px solid #283f71; outline-offset: 4px; }
+
+@media (min-width: 768px) and (max-width: 1050px) {
+  .hero-scene { --hero-motion-factor: .7; }
+}
+
+/* Keep the copy styles untouched; reclaim only unused space below the Hero. */
+@media (min-width: 768px) {
+  #top.hero.container {
+    min-height: 600px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #top.hero.container { min-height: 640px; }
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+  #top.hero.container { min-height: 500px; }
+}
+
+@media (max-width: 767px) {
+  #top .hero-scene,
+  .hero-scene {
+    max-width: 500px;
+    margin-inline: auto;
+    --hero-motion-factor: .5;
+  }
+  .hero-scene :is(.hero-motion-cursor, .hero-particle-motion, .hero-orbit-flow, .hero-glow-motion) { animation: none; }
+  .hero-scene .hero-particle-motion { offset-path: none; }
+}
+
+/* Round 5: adapt the outer layout; approved SVG coordinates/materials stay put. */
+#top.hero.container {
+  width: min(calc(100% - 64px), var(--container));
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr);
+  column-gap: clamp(20px, 2vw, 32px);
+}
+#top.hero .hero-copy { min-width: 0; }
+#top.hero .hero-art { width: 100%; min-width: 0; margin: 0; }
+#top.hero h1 { text-wrap: balance; }
+#top.hero .hero-actions { flex-wrap: wrap; }
+#top.hero .hero-note .people { flex-shrink: 0; }
+#top.hero .hero-note > span:last-child { min-width: 0; }
+#top .hero-extension-name { white-space: nowrap; }
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #top.hero h1 { font-size: clamp(40px, 3.7vw, 54px); }
+  #top.hero .hero-line-break { display: initial; }
+  #top.hero .hero-actions .button { padding-inline: 18px; gap: 18px; }
+}
+
+@media (min-width: 1024px) and (max-width: 1050px) {
+  #top.hero .eyebrow { font-size: 11px; }
+  #top.hero .hero-copy > p { font-size: 16px; line-height: 1.6; }
+  #top.hero .hero-actions .button { font-size: 14px; min-height: 50px; }
+  #top.hero .hero-note > span:last-child { font-size: 14px; }
+  #top.hero .hero-note small { font-size: 12px; line-height: 1.5; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #top.hero.container {
+    width: calc(100% - 48px);
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    min-height: auto;
+    padding-block: 40px 20px;
+  }
+  #top.hero .hero-copy { width: 100%; max-width: 660px; justify-self: center; padding: 0; }
+  #top.hero h1 { font-size: clamp(40px, 5.2vw, 52px); line-height: 1.15; }
+  #top.hero .hero-copy > p { font-size: 16px; line-height: 1.6; max-width: 640px; }
+  #top.hero .hero-art { max-width: 760px; justify-self: center; }
+  #top.hero .eyebrow { font-size: 11px; }
+  #top.hero .hero-actions { gap: 14px; }
+  #top.hero .hero-actions .button { font-size: 14px; min-height: 50px; padding-inline: 22px; gap: 20px; }
+  #top.hero .hero-note > span:last-child { font-size: 14px; }
+  #top.hero .hero-note small { font-size: 12px; line-height: 1.5; }
+  #top.hero .people i { width: 37px; height: 37px; }
+}
+
+@media (max-width: 767px) {
+  #top.hero.container {
+    width: calc(100% - 40px);
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    padding-block: 36px 16px;
+    min-height: auto;
+    overflow: visible;
+  }
+  #top.hero h1 { font-size: clamp(36px, 9.3vw, 44px); line-height: 1.15; letter-spacing: -.045em; word-break: normal; }
+  #top.hero .eyebrow { font-size: 11px; }
+  #top.hero .hero-line-break { display: none; }
+  #top.hero .hero-copy > p { font-size: 15px; line-height: 1.6; }
+  #top.hero .hero-actions { gap: 12px; flex-direction: row; }
+  #top.hero .hero-actions .button { font-size: 14px; min-height: 50px; padding-inline: 16px; gap: 14px; }
+  #top.hero .hero-note { gap: 12px; align-items: center; }
+  #top.hero .hero-note > span:last-child { font-size: 14px; }
+  #top.hero .hero-note small { font-size: 12px; line-height: 1.5; }
+}
+
+@media (max-width: 479px) {
+  #top.hero .hero-actions { flex-direction: column; }
+}
+
+/* Round 5.1: mobile assembly provides its own shadow gutters and shorter canvas. */
+@media (max-width: 767px) {
+  #top.hero.container { row-gap: 12px; padding-bottom: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-scene .hero-particle-motion { offset-path: none; }
+  .hero-scene :is(.hero-visual-motion, .hero-particle-motion, .hero-dot-motion, .hero-orbit-flow, .hero-glow-motion),
+  #top .hero-copy > :is(.eyebrow, h1, p, .hero-actions, .hero-note),
+  #top .hero-art { animation: none !important; }
+  #top .hero-actions .button:hover,
+  #top .hero-actions .button:is(:hover, :focus-visible) > span { transform: none; }
+  #top .hero-actions .button,
+  #top .hero-actions .button > span { transition-duration: .01ms !important; }
+  .hero-motion-core { will-change: auto; }
+}
+
+/* Simulated interaction stays outside the approved placement transform.
+   Feedback uses movement/opacity only, preserving all existing color treatments. */
+.hero-cursor-travel { pointer-events: none; }
+.hero-scene[data-interaction-ready="true"] [data-hero-layer="cursor"] { animation: none; }
+.hero-target-interaction { transition: transform 180ms ease; }
+.hero-target-interaction[data-state="hovered"] {
+  transform: translateY(calc(-3px * var(--hero-motion-unit-scale, 1) * var(--hero-motion-factor, 1)));
+}
+.hero-target-interaction[data-state="clicked"] {
+  transform: translateY(calc(-1px * var(--hero-motion-unit-scale, 1) * var(--hero-motion-factor, 1)));
+}
+.hero-asset-icon, .hero-notification-bell { transform-box: fill-box; transform-origin: center; transition: transform 180ms ease; }
+.hero-target-interaction[data-state="hovered"] :is(.hero-asset-icon, .hero-notification-bell) { transform: scale(1.025); }
+.hero-cursor-press {
+  transform-box: fill-box;
+  transform-origin: 0 0;
+  transition: transform 120ms ease;
+}
+.hero-scene[data-interaction-phase="clicked"] .hero-cursor-press { transform: scale(.94); }
+.hero-cursor-ring { transform-box: fill-box; transform-origin: center; }
+.hero-scene[data-interaction-phase="clicked"] .hero-cursor-ring {
+  animation: hero-click-ring 300ms ease-out both;
+}
+@keyframes hero-click-ring {
+  from { opacity: .55; transform: scale(.6); }
+  to { opacity: 0; transform: scale(1.8); }
+}
+
+.hero-dot-motion {
+  --hero-motion-travel: calc(var(--hero-motion-factor, 1) * var(--hero-motion-unit-scale, 1));
+  animation: hero-layer-float var(--hero-dot-duration, 5s) ease-in-out var(--hero-dot-delay, 0s) infinite;
+}
+.hero-dot-top { --hero-dot-duration: 4.8s; --hero-dot-delay: -1.5s; --hero-motion-distance: -6px; --hero-motion-x: 2px; }
+.hero-dot-left { --hero-dot-duration: 6.3s; --hero-dot-delay: -3.7s; --hero-motion-distance: -8px; --hero-motion-x: -3px; }
+.hero-dot-soft {
+  /* Compensate the background's mobile scale without changing its placement. */
+  --hero-motion-travel: calc(var(--hero-motion-factor, 1) * var(--hero-motion-unit-scale, 1) * var(--hero-dot-parent-compensation, 1));
+  animation-name: hero-soft-dot-float;
+}
+.hero-dot-soft-top { --hero-dot-duration: 4.3s; --hero-dot-delay: -.7s; --hero-motion-distance: -7px; --hero-motion-x: 2px; }
+.hero-dot-soft-right { --hero-dot-duration: 5.2s; --hero-dot-delay: -2.1s; --hero-motion-distance: -8px; --hero-motion-x: -2.5px; }
+.hero-dot-soft-lower { --hero-dot-duration: 6.1s; --hero-dot-delay: -3.4s; --hero-motion-distance: -9px; --hero-motion-x: 3px; }
+.hero-dot-soft-tail { --hero-dot-duration: 6.8s; --hero-dot-delay: -5.6s; --hero-motion-distance: -6px; --hero-motion-x: -2px; }
+@keyframes hero-soft-dot-float {
+  0%, 100% { transform: translate(0, 0); }
+  35% { transform: translate(calc(var(--hero-motion-x) * var(--hero-motion-travel)), calc(var(--hero-motion-distance) * var(--hero-motion-travel))); }
+  70% { transform: translate(calc(var(--hero-motion-x) * -.4 * var(--hero-motion-travel)), calc(var(--hero-motion-distance) * .4 * var(--hero-motion-travel))); }
+}
+@media (max-width: 767px) {
+  .hero-scene .hero-particle-motion {
+    --hero-motion-travel: calc(var(--hero-motion-factor, .5) * var(--hero-motion-unit-scale, 1));
+    animation: hero-layer-float 5.4s ease-in-out -1.2s infinite;
+    --hero-motion-distance: -7px;
+    --hero-motion-x: 2px;
+  }
+  .hero-scene .hero-particle-near { animation-duration: 6.7s; animation-delay: -4.1s; --hero-motion-distance: -8px; --hero-motion-x: -2px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-scene .hero-dot-motion { animation: none !important; }
+  .hero-target-interaction, .hero-cursor-press, .hero-asset-icon, .hero-notification-bell { transition: none; }
+}

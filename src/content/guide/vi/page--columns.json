@@ -1,0 +1,95 @@
+{
+  "slug": "page/columns",
+  "category": "page",
+  "title": "Ý nghĩa các cột Page",
+  "description": "Hướng dẫn ý nghĩa các cột page theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    139,
+    140
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mỗi dòng trong bảng là một Page.",
+          "page": 139
+        }
+      ]
+    },
+    {
+      "id": "fields",
+      "title": "Tra cứu cột dữ liệu",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Cột",
+            "Ý nghĩa"
+          ],
+          "rows": [
+            [
+              "Ô chọn",
+              "Chọn Page cần thao tác."
+            ],
+            [
+              "STT",
+              "Số thứ tự."
+            ],
+            [
+              "Trạng thái",
+              "Ví dụ ACTIVE: Page đang hoạt động."
+            ],
+            [
+              "ID",
+              "ID của Page."
+            ],
+            [
+              "ID Profile",
+              "ID trang cá nhân gắn với Page, nếu có."
+            ],
+            [
+              "Tên",
+              "Ảnh đại diện, tên và ID Page."
+            ],
+            [
+              "Hoạt động",
+              "Kết quả hoặc thông báo lỗi khi chạy công cụ."
+            ],
+            [
+              "Earnings 28D (USD)",
+              "Thu nhập của Page trong 28 ngày gần nhất."
+            ],
+            [
+              "Monetization Tools",
+              "Các công cụ kiếm tiền đang được bật."
+            ],
+            [
+              "Like",
+              "Số lượt thích Page."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/page-columns-p140-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 140",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 140",
+          "width": 1233,
+          "height": 589,
+          "page": 140
+        }
+      ]
+    }
+  ]
+}

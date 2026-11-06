@@ -1,0 +1,68 @@
+{
+  "slug": "page/rename",
+  "category": "page",
+  "title": "Đổi tên Fanpage",
+  "description": "Hướng dẫn người dùng đổi tên một hoặc nhiều Page cùng lúc",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    187,
+    188,
+    189
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng đổi tên một hoặc nhiều Page cùng lúc",
+          "page": 187
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 187
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Page → Hệ thống hiển thị danh sách Page.",
+          "page": 187
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng tick chọn page cần đổi tên. Người dùng nhấn Đổi tên fanpage tại bảng công cụ → Hệ thống mở form nhập thông tin.",
+          "page": 187
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện nhập dữ liệu hợp lệ vào tất cả trường bắt buộc.",
+          "page": 188
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Bắt đầu]. Hệ thống hiển thị popup: Đổi tên fanpage để kiểm tra trước khi đổi.",
+          "page": 189
+        },
+        {
+          "type": "step",
+          "number": "6",
+          "text": "Người dùng nhấn button [Xác Nhận]. Hệ thống đổi tên các Page đã chọn và xem kết quả tại cột Hoạt động , nhấn Làm mới để xem tên mới tại cột Tên.",
+          "page": 189
+        }
+      ]
+    }
+  ]
+}

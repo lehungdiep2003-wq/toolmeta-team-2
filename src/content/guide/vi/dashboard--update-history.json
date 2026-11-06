@@ -1,0 +1,40 @@
+{
+  "slug": "dashboard/update-history",
+  "category": "dashboard",
+  "title": "Lịch sử cập nhật",
+  "description": "Lịch Sử Cập Nhật tổng hợp các bản cập nhật mới nhất lấy từ hệ thống thông báo.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    10
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lịch Sử Cập Nhật tổng hợp các bản cập nhật mới nhất lấy từ hệ thống thông báo.",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "• Mỗi dòng là một bản cập nhật của công cụ.",
+          "page": 10
+        },
+        {
+          "type": "paragraph",
+          "text": "• Nếu hiển thị \"Không tải được lịch sử cập nhật\", người dùng tải lại trang (F5) hoặc kiểm tra kết nối mạng. Nếu lỗi vẫn còn, liên hệ Nhóm Hỗ Trợ.",
+          "page": 10
+        }
+      ]
+    }
+  ]
+}

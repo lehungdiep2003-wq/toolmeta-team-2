@@ -1,0 +1,38 @@
+{
+  "slug": "troubleshooting/update-history",
+  "category": "troubleshooting",
+  "title": "Không tải được lịch sử cập nhật",
+  "description": "Khắc phục lỗi tải lịch sử cập nhật được nêu trong tài liệu.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    10,
+    201
+  ],
+  "sections": [
+    {
+      "id": "resolve",
+      "title": "Cách xử lý",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Kiểm tra kết nối mạng.",
+          "page": 10
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tải lại trang bằng F5.",
+          "page": 10
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Nếu lỗi vẫn còn, liên hệ Nhóm Hỗ Trợ theo kênh được cung cấp trong ứng dụng.",
+          "page": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+/* Text expansion only; preserve each section's existing grid and motion. */
+html:not([lang="vi"]) .hero-line-break { display: none; }
+html:not([lang="vi"]) .hero h1 { font-size: clamp(38px, 4.4vw, 64px); letter-spacing: -.04em; }
+html:not([lang="vi"]) .button, html:not([lang="vi"]) .pr-cta { height: auto; text-align: center; white-space: normal; }
+html:not([lang="vi"]) .ft-nav h3 { flex-wrap: wrap; }
+html:not([lang="vi"]) .eyebrow { max-width: 100%; line-height: 1.5; letter-spacing: .08em; }
+html:not([lang="vi"]) .eyebrow i { flex-shrink: 0; }
+html[lang="th"] .eyebrow { letter-spacing: .03em; }
+html[lang="th"] body { line-break: auto; word-break: normal; }
+html[lang="zh"] body { line-break: strict; }
+html[lang="ru"] :is(.pp-capability h3, .highlight h3, .benefit h3) { overflow-wrap: anywhere; }
+html:not([lang="vi"]) #benefits .bnf-bulk-bar :is(b, button) { white-space: normal; line-height: 1.45; }
+@media (min-width: 768px) {
+  html:not([lang="vi"]) #benefits .bento { grid-template-rows: repeat(2, minmax(280px, auto)); }
+}
+.language-trigger .language-name { min-width: 0; }
+@media (max-width: 767px) {
+  .header .nav-wrap { gap: 10px; }
+  .header .header-logo { width: 112px; }
+  .header .language-selector { margin-inline: 0; }
+  .header .language-trigger { width: 144px; gap: 7px; padding-inline: 8px; font-size: 12px; }
+  .header .language-name { display: inline; }
+  .header .language-short { display: none; }
+  html:not([lang="vi"]) .hero h1 { font-size: clamp(34px, 9vw, 46px); }
+  html:not([lang="vi"]) :is(.fcta-copy h2, .pp-intro h1, .ct-intro h1) { overflow-wrap: anywhere; }
+}
+@media (min-width: 1051px) and (max-width: 1279px) {
+  html:not([lang="vi"]) .header .nav-wrap { gap: 12px; }
+  html:not([lang="vi"]) .header .nav { gap: 10px; }
+  html:not([lang="vi"]) .header .nav a { font-size: 12px; }
+}

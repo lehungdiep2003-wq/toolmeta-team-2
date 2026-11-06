@@ -1,0 +1,64 @@
+{
+  "slug": "bm/check-info",
+  "category": "bm",
+  "title": "Check Info BM",
+  "description": "Hướng dẫn người dùng bật hoặc tắt việc kiểm tra thông tin chi tiết của BM (trạng thái LIVE/DIE, xác minh doanh nghiệp...) khi tải danh sách BM.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    137,
+    138
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng bật hoặc tắt việc kiểm tra thông tin chi tiết của BM (trạng thái LIVE/DIE, xác minh doanh nghiệp...) khi tải danh sách BM.",
+          "page": 137
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 137
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 137
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn toggle bật/ tắt Check info BM tại bảng công cụ",
+          "page": 137
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-check-info-p138-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 138",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 138",
+          "width": 1233,
+          "height": 280,
+          "page": 138
+        }
+      ]
+    }
+  ]
+}

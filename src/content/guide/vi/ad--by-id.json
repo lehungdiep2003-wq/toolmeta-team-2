@@ -1,0 +1,92 @@
+{
+  "slug": "ad/by-id",
+  "category": "ad",
+  "title": "Chọn và lọc theo ID AD",
+  "description": "Hướng dẫn người dùng lọc hoặc chọn nhanh nhiều tài khoản quảng cáo cùng lúc bằng cách nhập danh sách ID.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    23,
+    24,
+    25,
+    26
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng lọc hoặc chọn nhanh nhiều tài khoản quảng cáo cùng lúc bằng cách nhập danh sách ID.",
+          "page": 23
+        },
+        {
+          "type": "paragraph",
+          "text": ".Hệ thống hiển thị popup: Chọn nhiều ID ADS.",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 23
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn AD → Hệ thống hiển thị danh sách tài khoản quảng cáo.",
+          "page": 23
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn vào icon",
+          "page": 24
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng nhập ID tài khoản quảng cáo vào field Nhập ID, mỗi ID một dòng .Hệ thống tự động đối chiếu với danh sách TKQC đang có.",
+          "page": 25
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button thao tác mong muốn. Hệ thống hiển thị kết quả đúng tiêu chí chọn",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/ad-by-id-p024-02.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 24",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 24",
+          "width": 35,
+          "height": 30,
+          "page": 24
+        },
+        {
+          "type": "image",
+          "src": "/guide-media/ad-by-id-p026-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 26",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 26",
+          "width": 1233,
+          "height": 368,
+          "page": 26
+        }
+      ]
+    }
+  ]
+}

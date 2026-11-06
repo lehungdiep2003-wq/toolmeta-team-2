@@ -1,0 +1,48 @@
+{
+  "slug": "bm/overview",
+  "category": "bm",
+  "title": "Tổng quan Business Manager",
+  "description": "Hướng dẫn người dùng xem danh sách Business Manager (BM), theo dõi trạng thái, xác minh doanh nghiệp, tài khoản quảng cáo trong BM và thực hiện thao tác hàng loạt trên các BM được chọn.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    73,
+    74
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng xem danh sách Business Manager (BM), theo dõi trạng thái, xác minh doanh nghiệp, tài khoản quảng cáo trong BM và thực hiện thao tác hàng loạt trên các BM được chọn.",
+          "page": 73
+        },
+        {
+          "type": "paragraph",
+          "text": "Giao diện tổng quan màn hình BM Màn hình gồm 4 khu vực:  Thanh công cụ (phía trên), Bảng danh sách BM (chính giữa), Bảng công cụ (bên phải) và Thanh thống kê (phía dưới).",
+          "page": 74
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 73
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu chức năng, chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 73
+        }
+      ]
+    }
+  ]
+}

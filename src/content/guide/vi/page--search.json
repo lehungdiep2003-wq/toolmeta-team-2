@@ -1,0 +1,49 @@
+{
+  "slug": "page/search",
+  "category": "page",
+  "title": "Tìm kiếm Page",
+  "description": "Hướng dẫn người dùng lọc nhanh danh sách Page.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    154,
+    155
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng lọc nhanh danh sách Page.",
+          "page": 154
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 154
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Page → Hệ thống hiển thị danh sách Page.",
+          "page": 154
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhập tìm kiếm theo tên Page hoặc ID Page, hệ thống hiển thị kết quả phù hợp với tiêu chí tìm kiếm",
+          "page": 155
+        }
+      ]
+    }
+  ]
+}

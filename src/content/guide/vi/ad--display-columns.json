@@ -1,0 +1,87 @@
+{
+  "slug": "ad/display-columns",
+  "category": "ad",
+  "title": "Tùy chỉnh cột AD",
+  "description": "Hướng dẫn người dùng chọn cột hiển thị và sắp xếp lại thứ tự cột cho phù hợp với nhu cầu theo dõi",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    31,
+    32
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng chọn cột hiển thị và sắp xếp lại thứ tự cột cho phù hợp với nhu cầu theo dõi",
+          "page": 31
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 31
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn AD → Hệ thống hiển thị danh sách tài khoản quảng cáo.",
+          "page": 31
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn button [Cột]. Hệ thống hiển thị danh sách tất cả cột",
+          "page": 31
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện các thao tác",
+          "page": 32
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Áp dụng] để lưu.",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "•     Tích / bỏ tích ô vuông ở mỗi cột để hiện hoặc ẩn cột đó.",
+          "page": 32
+        },
+        {
+          "type": "paragraph",
+          "text": "•     Kéo biểu tượng dấu chấm (::) ở đầu mỗi dòng để sắp xếp lại thứ tự cột.",
+          "page": 32
+        },
+        {
+          "type": "paragraph",
+          "text": "•     Ẩn tất cả / Hiện tất cả: ẩn hoặc hiện nhanh toàn bộ cột.",
+          "page": 32
+        },
+        {
+          "type": "paragraph",
+          "text": "•     Đặt lại mặc định: đưa danh sách cột về trạng thái mặc định.",
+          "page": 32
+        }
+      ]
+    }
+  ]
+}

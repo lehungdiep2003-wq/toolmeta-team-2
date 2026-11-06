@@ -1,0 +1,47 @@
+{
+  "slug": "ad/overview",
+  "category": "ad",
+  "title": "Tổng quan tài khoản quảng cáo",
+  "description": "Hướng dẫn người dùng xem danh sách tài khoản quảng cáo (TKQC), theo dõi trạng thái, số dư, ngưỡng thanh toán và thực hiện thao tác hàng loạt trên các tài khoản được chọn.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    16
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng xem danh sách tài khoản quảng cáo (TKQC), theo dõi trạng thái, số dư, ngưỡng thanh toán và thực hiện thao tác hàng loạt trên các tài khoản được chọn.",
+          "page": 16
+        },
+        {
+          "type": "paragraph",
+          "text": "Giao diện tổng quan màn hình AD",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 16
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn AD → Hệ thống hiển thị danh sách tài khoản quảng cáo.",
+          "page": 16
+        }
+      ]
+    }
+  ]
+}

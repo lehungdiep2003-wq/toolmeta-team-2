@@ -1,0 +1,1944 @@
+[
+  {
+    "text": "Tính năng",
+    "files": [
+      "src/App.tsx",
+      "src/components/footer/footerConfig.ts",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Lợi ích",
+    "files": [
+      "src/App.tsx",
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Cách hoạt động",
+    "files": [
+      "src/App.tsx",
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Bảng giá",
+    "files": [
+      "src/App.tsx",
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Hướng dẫn",
+    "files": [
+      "src/App.tsx",
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Liên hệ",
+    "files": [
+      "src/App.tsx",
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Quản lý tập trung",
+    "files": [
+      "src/App.tsx",
+      "src/components/final-cta/FinalCtaVisual.tsx",
+      "src/components/product-experience/ProductExperienceVisual.tsx"
+    ]
+  },
+  {
+    "text": "Theo dõi AD, BM và PAGE trong một không gian làm việc nhất quán.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Kiểm tra nhanh chóng",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Tìm kiếm, lọc và xem trạng thái tài sản với cấu trúc rõ ràng.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Thao tác nhiều tài sản",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Tiếp cận các công cụ quản lý hàng loạt được hỗ trợ.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Vận hành gọn hơn",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Giảm thao tác lặp lại và giữ luồng công việc luôn mạch lạc.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Tài khoản quảng cáo",
+    "files": [
+      "src/App.tsx",
+      "src/components/benefits/BenefitAssetStack.tsx",
+      "src/components/hero/heroVisual.config.ts",
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Xem danh sách, trạng thái, thông tin số dư và chi tiêu liên quan. Tìm kiếm, lọc và sử dụng các công cụ quản lý được hỗ trợ.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Trạng thái",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx",
+      "src/components/highlights/highlightDemoData.ts",
+      "src/components/highlights/HighlightSearchDemo.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Số dư",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Bộ lọc",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Kiểm tra thông tin BM, dữ liệu xác minh, trạng thái doanh nghiệp và các tài sản liên quan.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Thông tin BM",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Xác minh",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Tài sản",
+    "files": [
+      "src/App.tsx",
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Theo dõi danh sách, trạng thái Page, quyền quản trị và truy cập các công cụ Page được hỗ trợ.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Danh sách Page",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Quyền",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Tất cả tài sản",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "⌕ &nbsp; Tìm kiếm...",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Thông tin",
+    "files": [
+      "src/App.tsx",
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Cập nhật",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx",
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Hoạt động",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx",
+      "src/components/benefits/BenefitSearchDemo.tsx",
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Quản trị viên",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/assetShowcaseData.ts",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Vừa xong",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Đang xem xét",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx",
+      "src/components/benefits/BenefitSearchDemo.tsx",
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Biên tập viên",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "12 phút",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "1 giờ",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Dữ liệu mẫu minh hoạ",
+    "files": [
+      "src/App.tsx",
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Ngôn ngữ: {0}",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Ngôn ngữ",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Điều hướng chính",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Bắt đầu miễn phí",
+    "files": [
+      "src/App.tsx",
+      "src/components/final-cta/FinalCta.tsx",
+      "src/components/pricing/pricingData.ts",
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Mở menu",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "NỀN TẢNG QUẢN LÝ TÀI SẢN",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Quản lý tài sản",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "quảng cáo",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "tập trung",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "và hiệu quả hơn.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Toolmeta giúp bạn theo dõi, quản lý và thao tác với tài khoản quảng cáo, Business Manager và Fanpage trên một nền tảng trực quan, chuyên nghiệp.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Khám phá tính năng",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Miễn phí để bắt đầu",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Thiết lập nhanh với",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "LỢI ÍCH CỐT LÕI",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Mọi tài sản. Một nơi quản lý.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Cấu trúc công việc nhất quán giúp đội ngũ kiểm tra thông tin nhanh hơn và vận hành rõ ràng hơn.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "QUẢN LÝ TÀI SẢN",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Đúng công cụ cho từng nhóm tài sản.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Thông tin thiết yếu và các tác vụ được hỗ trợ được sắp xếp theo cách rõ ràng, dễ tiếp cận.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Tìm kiếm & bộ lọc",
+    "files": [
+      "src/App.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Nhanh chóng thu hẹp danh sách theo thông tin cần kiểm tra.",
+    "files": [
+      "src/App.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Thao tác hàng loạt",
+    "files": [
+      "src/App.tsx",
+      "src/components/highlights/HighlightBulkDemo.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Làm việc với nhiều tài sản qua các công cụ được hỗ trợ.",
+    "files": [
+      "src/App.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Cột tùy chỉnh",
+    "files": [
+      "src/App.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Tổ chức bảng dữ liệu theo nhu cầu theo dõi của bạn.",
+    "files": [
+      "src/App.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Công cụ quản lý",
+    "files": [
+      "src/App.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Truy cập các tiện ích cần thiết từ cùng một không gian.",
+    "files": [
+      "src/App.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "ĐIỂM NỔI BẬT",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Ít phân tán. Nhiều kiểm soát hơn.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Tất cả công cụ cần thiết được tích hợp trong một nền tảng, giúp bạn quản lý tài sản hiệu quả và tập trung hơn.",
+    "files": [
+      "src/App.tsx"
+    ]
+  },
+  {
+    "text": "Tất cả tài khoản quảng cáo",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tìm tài khoản...",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tên tài khoản",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tất cả Business Manager",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tìm BM...",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tên Business Manager",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tất cả Page",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tìm Page...",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Tên Page",
+    "files": [
+      "src/components/assets/assetShowcaseData.ts"
+    ]
+  },
+  {
+    "text": "Chưa có dữ liệu mẫu",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Tìm kiếm {0} trong dữ liệu minh họa",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Bộ lọc trạng thái {0}",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Bảng {0} minh họa, có thể cuộn ngang",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Chọn tất cả {0} minh họa",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Chi tiêu",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Vai trò",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Công ty",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Chọn {0} ({1}) minh họa",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Dữ liệu mẫu minh hoạ · Ô “—” chưa có dữ liệu mẫu.",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "Cuộn ngang trong bảng →",
+    "files": [
+      "src/components/assets/AssetTable.tsx"
+    ]
+  },
+  {
+    "text": "AD, BM và PAGE được tập trung trong cùng một không gian quản lý",
+    "files": [
+      "src/components/benefits/BenefitAssetStack.tsx"
+    ]
+  },
+  {
+    "text": "{0} tài sản đã chọn",
+    "files": [
+      "src/components/benefits/BenefitBulkDemo.tsx"
+    ]
+  },
+  {
+    "text": "Chọn {0} trong minh họa",
+    "files": [
+      "src/components/benefits/BenefitBulkDemo.tsx"
+    ]
+  },
+  {
+    "text": "Đã chọn",
+    "files": [
+      "src/components/benefits/BenefitBulkDemo.tsx",
+      "src/components/highlights/HighlightBulkDemo.tsx"
+    ]
+  },
+  {
+    "text": "tài sản",
+    "files": [
+      "src/components/benefits/BenefitBulkDemo.tsx",
+      "src/components/highlights/HighlightBulkDemo.tsx"
+    ]
+  },
+  {
+    "text": "Thao tác hàng loạt — minh họa",
+    "files": [
+      "src/components/benefits/BenefitBulkDemo.tsx"
+    ]
+  },
+  {
+    "text": "Thao tác",
+    "files": [
+      "src/components/benefits/BenefitBulkDemo.tsx",
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Minh họa tìm kiếm và lọc tài sản",
+    "files": [
+      "src/components/benefits/BenefitSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Tìm kiếm tài sản",
+    "files": [
+      "src/components/benefits/BenefitSearchDemo.tsx",
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Loại tài sản",
+    "files": [
+      "src/components/benefits/BenefitSearchDemo.tsx",
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Tất cả",
+    "files": [
+      "src/components/benefits/BenefitSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Trạng thái tài sản",
+    "files": [
+      "src/components/benefits/BenefitSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Tất cả trạng thái",
+    "files": [
+      "src/components/benefits/BenefitSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Hoạt động · Minh họa",
+    "files": [
+      "src/components/benefits/BenefitSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Tạo & quản lý",
+    "files": [
+      "src/components/benefits/BenefitWorkflow.tsx"
+    ]
+  },
+  {
+    "text": "Theo dõi",
+    "files": [
+      "src/components/benefits/BenefitWorkflow.tsx"
+    ]
+  },
+  {
+    "text": "Hoàn thành",
+    "files": [
+      "src/components/benefits/BenefitWorkflow.tsx"
+    ]
+  },
+  {
+    "text": "Các bước vận hành tài sản",
+    "files": [
+      "src/components/benefits/BenefitWorkflow.tsx"
+    ]
+  },
+  {
+    "text": "Hoàn tất",
+    "files": [
+      "src/components/benefits/BenefitWorkflow.tsx"
+    ]
+  },
+  {
+    "text": "Kênh tiếp nhận hiện chưa khả dụng. Yêu cầu của bạn chưa được gửi.",
+    "files": [
+      "src/components/contact/contactApi.ts"
+    ]
+  },
+  {
+    "text": "Bạn đã gửi nhiều yêu cầu. Vui lòng chờ rồi thử lại.",
+    "files": [
+      "src/components/contact/contactApi.ts"
+    ]
+  },
+  {
+    "text": "Chưa thể tiếp nhận yêu cầu. Vui lòng kiểm tra thông tin và thử lại.",
+    "files": [
+      "src/components/contact/contactApi.ts"
+    ]
+  },
+  {
+    "text": "Chưa nhận được xác nhận tiếp nhận hợp lệ. Vui lòng kiểm tra trước khi gửi lại.",
+    "files": [
+      "src/components/contact/contactApi.ts"
+    ]
+  },
+  {
+    "text": "Chưa nhận được xác nhận trong thời gian chờ. Vui lòng kiểm tra trước khi gửi lại để tránh yêu cầu trùng.",
+    "files": [
+      "src/components/contact/contactApi.ts"
+    ]
+  },
+  {
+    "text": "Không thể xác nhận việc tiếp nhận yêu cầu. Dữ liệu của bạn vẫn được giữ trong biểu mẫu.",
+    "files": [
+      "src/components/contact/contactApi.ts"
+    ]
+  },
+  {
+    "text": "Hỗ trợ cài đặt",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Hỗ trợ sử dụng",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Vấn đề tài khoản",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Lỗi kỹ thuật",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Hợp tác / Tư vấn",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Khác",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Họ và tên cần có từ 2 đến 100 ký tự.",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Vui lòng nhập Telegram của bạn.",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Nhập username Telegram 5–32 ký tự, bắt đầu bằng chữ cái Latin, chỉ gồm chữ, số hoặc dấu gạch dưới; hoặc link https://t.me/username.",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Vui lòng chọn loại yêu cầu.",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Nội dung cần có từ 10 đến 3000 ký tự.",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Bạn cần đồng ý cung cấp thông tin để xử lý yêu cầu.",
+    "files": [
+      "src/components/contact/contactData.ts"
+    ]
+  },
+  {
+    "text": "Toolmeta dùng để làm gì?",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Toolmeta giúp tập trung việc theo dõi, kiểm tra, quản lý và thao tác với các tài sản quảng cáo Facebook được hỗ trợ gồm AD, BM và PAGE trong một không gian làm việc nhất quán.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Có cần cài đặt Chrome Extension không?",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Có. Chrome Extension là thành phần cần thiết để Toolmeta kết nối dữ liệu tài khoản và thực hiện các chức năng AD, BM, PAGE tương ứng. Bạn cần cài extension và đăng nhập trước khi sử dụng.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Toolmeta hỗ trợ quản lý những loại tài sản nào?",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Toolmeta hỗ trợ tài khoản quảng cáo (AD/TKQC), Business Manager (BM) và Fanpage (PAGE). Các thông tin và công cụ được sắp xếp riêng theo từng nhóm tài sản.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Làm thế nào để bắt đầu sử dụng?",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Cài Chrome Extension Toolmeta.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Đăng nhập tài khoản.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Đồng bộ tài khoản trên Dashboard.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Truy cập AD, BM hoặc PAGE để xem và quản lý tài sản.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Dữ liệu của tôi có được bảo mật không?",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Tài liệu hướng dẫn có mục Bảo mật & Điều khoản để bạn xem phạm vi truy cập và trách nhiệm sử dụng. Cookie và access token cho phép truy cập tài khoản, vì vậy cần giữ kín và không chia sẻ các giá trị này với người khác. Hãy đọc chính sách trong ứng dụng trước khi sử dụng.",
+    "files": [
+      "src/components/faq/faqData.ts"
+    ]
+  },
+  {
+    "text": "Không tìm thấy câu trả lời?",
+    "files": [
+      "src/components/faq/FaqIllustration.tsx"
+    ]
+  },
+  {
+    "text": "Liên hệ hỗ trợ của chúng tôi",
+    "files": [
+      "src/components/faq/FaqIllustration.tsx"
+    ]
+  },
+  {
+    "text": "Kênh liên hệ hỗ trợ sẽ được cập nhật.",
+    "files": [
+      "src/components/faq/FaqIllustration.tsx"
+    ]
+  },
+  {
+    "text": "CÂU HỎI THƯỜNG GẶP",
+    "files": [
+      "src/components/faq/FaqSection.tsx"
+    ]
+  },
+  {
+    "text": "Thông tin cần biết",
+    "files": [
+      "src/components/faq/FaqSection.tsx"
+    ]
+  },
+  {
+    "text": "trước khi bắt đầu.",
+    "files": [
+      "src/components/faq/FaqSection.tsx"
+    ]
+  },
+  {
+    "text": "Các câu trả lời ngắn gọn về phạm vi sản phẩm và quy trình thiết lập, giúp bạn khởi đầu nhanh chóng.",
+    "files": [
+      "src/components/faq/FaqSection.tsx"
+    ]
+  },
+  {
+    "text": "BẮT ĐẦU NGAY HÔM NAY",
+    "files": [
+      "src/components/final-cta/FinalCta.tsx"
+    ]
+  },
+  {
+    "text": "Bắt đầu quản lý tài sản",
+    "files": [
+      "src/components/final-cta/FinalCta.tsx"
+    ]
+  },
+  {
+    "text": "quảng cáo hiệu quả hơn",
+    "files": [
+      "src/components/final-cta/FinalCta.tsx"
+    ]
+  },
+  {
+    "text": "cùng",
+    "files": [
+      "src/components/final-cta/FinalCta.tsx"
+    ]
+  },
+  {
+    "text": "Một không gian rõ ràng cho AD, BM và PAGE.",
+    "files": [
+      "src/components/final-cta/FinalCta.tsx"
+    ]
+  },
+  {
+    "text": "Thiết lập nhanh chóng, sẵn sàng sử dụng ngay.",
+    "files": [
+      "src/components/final-cta/FinalCta.tsx"
+    ]
+  },
+  {
+    "text": "Toolmeta tập trung tài sản AD, BM và PAGE quanh biểu tượng Toolmeta chính thức.",
+    "files": [
+      "src/components/final-cta/FinalCtaVisual.tsx"
+    ]
+  },
+  {
+    "text": "Câu hỏi thường gặp",
+    "files": [
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Điều khoản sử dụng",
+    "files": [
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Chính sách quyền riêng tư",
+    "files": [
+      "src/components/footer/footerConfig.ts"
+    ]
+  },
+  {
+    "text": "Mới sử dụng",
+    "files": [
+      "src/components/footer/FooterGuideCard.tsx"
+    ]
+  },
+  {
+    "text": "Tìm hiểu cách cài đặt Chrome Extension, đăng nhập và bắt đầu quản lý AD, BM, PAGE trên Toolmeta.",
+    "files": [
+      "src/components/footer/FooterGuideCard.tsx"
+    ]
+  },
+  {
+    "text": "Xem hướng dẫn sử dụng",
+    "files": [
+      "src/components/footer/FooterGuideCard.tsx",
+      "src/pages/ContactPage.tsx",
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Ngôn ngữ Footer:",
+    "files": [
+      "src/components/footer/FooterLanguage.tsx"
+    ]
+  },
+  {
+    "text": "Toolmeta — về đầu trang",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Nền tảng quản lý tài sản quảng cáo tập trung, trực quan và chuyên nghiệp.",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Kênh Toolmeta",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Sản phẩm",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Tài nguyên",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Pháp lý",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Thông tin bảo mật và điều khoản được cung cấp trong ứng dụng Toolmeta.",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Quản lý tập trung · Vận hành hiệu quả · Phát triển bền vững",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "Liên kết pháp lý",
+    "files": [
+      "src/components/footer/SiteFooter.tsx"
+    ]
+  },
+  {
+    "text": "GIAO DIỆN & DỮ LIỆU MINH HỌA",
+    "files": [
+      "src/components/hero/HeroCaption.tsx"
+    ]
+  },
+  {
+    "text": "Hệ sinh thái quản lý tài sản Toolmeta",
+    "files": [
+      "src/components/hero/HeroVisual.tsx"
+    ]
+  },
+  {
+    "text": "Logo T chính thức trên khối xanh nổi, các thẻ tài khoản quảng cáo, Business Manager, Fanpage và bảng biểu đồ. Dữ liệu minh họa.",
+    "files": [
+      "src/components/hero/HeroVisual.tsx"
+    ]
+  },
+  {
+    "text": "Cảnh báo kịp thời",
+    "files": [
+      "src/components/hero/NotificationCard.tsx"
+    ]
+  },
+  {
+    "text": "Theo dõi trạng thái",
+    "files": [
+      "src/components/hero/NotificationCard.tsx"
+    ]
+  },
+  {
+    "text": "tài sản trong một nơi",
+    "files": [
+      "src/components/hero/NotificationCard.tsx"
+    ]
+  },
+  {
+    "text": "Tài sản mẫu",
+    "files": [
+      "src/components/highlights/HighlightBulkDemo.tsx"
+    ]
+  },
+  {
+    "text": "Minh họa",
+    "files": [
+      "src/components/highlights/HighlightBulkDemo.tsx",
+      "src/components/highlights/HighlightToolsDemo.tsx"
+    ]
+  },
+  {
+    "text": "Hiển thị cột",
+    "files": [
+      "src/components/highlights/HighlightColumnsDemo.tsx",
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Chuyển Cập nhật xuống một vị trí (minh họa)",
+    "files": [
+      "src/components/highlights/HighlightColumnsDemo.tsx"
+    ]
+  },
+  {
+    "text": "Chuyển Cập nhật lên một vị trí (minh họa)",
+    "files": [
+      "src/components/highlights/HighlightColumnsDemo.tsx"
+    ]
+  },
+  {
+    "text": "Đã cập nhật hiển thị",
+    "files": [
+      "src/components/highlights/HighlightColumnsDemo.tsx"
+    ]
+  },
+  {
+    "text": "Người quản lý",
+    "files": [
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Ghi chú",
+    "files": [
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Lọc trạng thái",
+    "files": [
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Kiểm tra quyền",
+    "files": [
+      "src/components/highlights/highlightDemoData.ts"
+    ]
+  },
+  {
+    "text": "Tìm kiếm tài sản mẫu",
+    "files": [
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Tìm kiếm tài sản…",
+    "files": [
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Loại tài sản mẫu",
+    "files": [
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Điều kiện lọc",
+    "files": [
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Đã chọn (",
+    "files": [
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "mẫu phù hợp",
+    "files": [
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Dữ liệu mẫu",
+    "files": [
+      "src/components/highlights/HighlightSearchDemo.tsx"
+    ]
+  },
+  {
+    "text": "Công cụ nhanh",
+    "files": [
+      "src/components/highlights/HighlightToolsDemo.tsx"
+    ]
+  },
+  {
+    "text": "{0} (minh họa)",
+    "files": [
+      "src/components/highlights/HighlightToolsDemo.tsx"
+    ]
+  },
+  {
+    "text": "Đã chọn công cụ · Minh họa",
+    "files": [
+      "src/components/highlights/HighlightToolsDemo.tsx"
+    ]
+  },
+  {
+    "text": "Miễn phí sử dụng",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Bảng giá Toolmeta — Toolmeta Free",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Bắt đầu miễn phí.",
+    "files": [
+      "src/components/pricing/pricingData.ts",
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Quản lý",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "dễ dàng hơn.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Khám phá các công cụ quản lý tài sản quảng cáo của Toolmeta với gói sử dụng miễn phí.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Các nhóm khả năng của sản phẩm Toolmeta:",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Danh sách này giới thiệu khả năng của sản phẩm. Quyền sử dụng từng công cụ trong gói Free cần được xác nhận bằng chính sách chính thức.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Các gói mở rộng",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Các lựa chọn trả phí sẽ được công bố khi thông tin chính thức được xác nhận.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Cài Chrome Extension, đăng nhập và đồng bộ tài sản để bắt đầu quản lý trong Workspace của bạn.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Thông tin gói Toolmeta Free được xác nhận thế nào?",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Toolmeta Free có giá 0₫, miễn phí sử dụng. Hạn mức số lượng, thời gian sử dụng và quyền sử dụng từng công cụ cần được xác nhận bằng chính sách chính thức của Toolmeta FB2.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Quản lý tài khoản quảng cáo (AD).",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Quản lý Business Manager (BM).",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Quản lý Fanpage (PAGE).",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Tìm kiếm và lọc tài sản.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Các công cụ thao tác hàng loạt được hỗ trợ.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Sử dụng Chrome Extension.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Theo dõi trạng thái, số dư và chi tiêu của tài khoản quảng cáo.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Tra cứu thông tin doanh nghiệp và các tài sản liên quan.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Xem danh sách Page, trạng thái và thông tin quyền quản lý.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Tác vụ hàng loạt",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Lọc danh sách, chọn nhiều tài sản và truy cập các công cụ thao tác hàng loạt được hỗ trợ.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Công cụ hỗ trợ",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "Truy cập thư viện công cụ và tùy chỉnh các cột hiển thị theo từng nhóm tài sản.",
+    "files": [
+      "src/components/pricing/pricingData.ts"
+    ]
+  },
+  {
+    "text": "BẢNG GIÁ",
+    "files": [
+      "src/components/pricing/PricingSection.tsx"
+    ]
+  },
+  {
+    "text": "GÓI",
+    "files": [
+      "src/components/pricing/PricingSection.tsx"
+    ]
+  },
+  {
+    "text": "0 đồng",
+    "files": [
+      "src/components/pricing/PricingSection.tsx"
+    ]
+  },
+  {
+    "text": "Khả năng sản phẩm Toolmeta",
+    "files": [
+      "src/components/pricing/PricingSection.tsx"
+    ]
+  },
+  {
+    "text": "Tên tài sản",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "ID tài sản",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Tiền tệ",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Chọn nhiều",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Đổi tên",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Phân quyền",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Mở/đóng TKQC",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Hiện/ẩn cột",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Sắp xếp",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Áp dụng",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Đặt lại mặc định",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Nhóm tài sản",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Đối tác",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Thư viện công cụ",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "TRẢI NGHIỆM SẢN PHẨM",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Thông tin rõ ràng.",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "liền mạch.",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Một giao diện nhất quán cho các nhóm tài sản chính, giúp bạn tập trung vào công việc cần làm.",
+    "files": [
+      "src/components/product-experience/ProductExperience.tsx"
+    ]
+  },
+  {
+    "text": "Toolmeta kết nối tài khoản quảng cáo AD, Business Manager và Page trong một nơi quản lý tập trung.",
+    "files": [
+      "src/components/product-experience/ProductExperienceVisual.tsx"
+    ]
+  },
+  {
+    "text": "Mọi tài sản trong một nơi",
+    "files": [
+      "src/components/product-experience/ProductExperienceVisual.tsx"
+    ]
+  },
+  {
+    "text": "Cài Chrome Extension",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Thêm tiện ích Toolmeta vào trình duyệt Chrome chỉ với 1 click.",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Cài đặt ngay",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Đăng nhập tài khoản",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Truy cập Toolmeta bằng tài khoản của bạn.",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Đăng nhập",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Đồng bộ dữ liệu",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Kết nối và cập nhật các tài sản quảng cáo vào hệ thống.",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Đồng bộ ngay",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Bắt đầu quản lý",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Truy cập AD, BM và PAGE trong một không gian trực quan.",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Vào hệ thống",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "CÁCH HOẠT ĐỘNG",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Bắt đầu với",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "4 bước rõ ràng.",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Quy trình thiết lập thiết yếu để đưa các tài sản của bạn vào không gian quản lý Toolmeta một cách nhanh chóng và dễ dàng.",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "{0} — mở ứng dụng Toolmeta",
+    "files": [
+      "src/components/workflow/WorkflowSection.tsx"
+    ]
+  },
+  {
+    "text": "Liên hệ Toolmeta",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Chưa thể gửi yêu cầu. Vui lòng thử lại.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Đến biểu mẫu liên hệ",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "← Trang chủ",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "LIÊN HỆ TOOLMETA",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Bạn cần hỗ trợ?",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Bắt đầu từ đây.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Chia sẻ yêu cầu của bạn để Toolmeta có thông tin hỗ trợ cài đặt, sử dụng và quản lý tài sản quảng cáo.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Mới sử dụng Toolmeta?",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Xem cách cài Chrome Extension, đăng nhập và bắt đầu quản lý AD, BM, PAGE.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Để hỗ trợ rõ ràng hơn",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Hãy mô tả thao tác bạn đang thực hiện và vấn đề gặp phải. Không gửi mật khẩu, cookie, access token hoặc thông tin thanh toán.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Yêu cầu đã được tiếp nhận",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Mã yêu cầu:",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Toolmeta đã nhận thông tin liên hệ bạn cung cấp.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Gửi yêu cầu khác",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "THÔNG TIN YÊU CẦU",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Liên hệ với Toolmeta",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Các trường có dấu",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "là bắt buộc.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Kênh tiếp nhận yêu cầu hiện chưa khả dụng. Bạn có thể",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "xem hướng dẫn sử dụng",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "trong lúc chờ.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Thông tin liên hệ và yêu cầu hỗ trợ",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Họ và tên",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Họ và tên của bạn",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Telegram của bạn",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "@username hoặc https://t.me/username",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Đội ngũ Toolmeta sẽ liên hệ với bạn qua Telegram.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Loại yêu cầu",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Chọn loại yêu cầu",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Nội dung yêu cầu",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Mô tả vấn đề và các thao tác bạn đã thực hiện…",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Từ 10 đến 3000 ký tự.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Tôi đồng ý cung cấp thông tin trên để Toolmeta liên hệ và xử lý yêu cầu của tôi.",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Đang gửi yêu cầu…",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Gửi yêu cầu",
+    "files": [
+      "src/pages/ContactPage.tsx"
+    ]
+  },
+  {
+    "text": "Đến nội dung bảng giá",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Trang chủ",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "BẢNG GIÁ TOOLMETA",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Tìm hiểu các công cụ",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "GÓI TOOLMETA",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "KHẢ NĂNG SẢN PHẨM",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Các nhóm công cụ trong Toolmeta.",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Quản lý AD, BM và Page cùng các công cụ hỗ trợ công việc trong một Workspace.",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Phạm vi sử dụng theo gói",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Xem hướng dẫn",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Bắt đầu trong Workspace của bạn",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Hướng dẫn bắt đầu",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "BẮT ĐẦU CÙNG TOOLMETA",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Quản lý tập trung.",
+    "files": [
+      "src/pages/PricingPage.tsx"
+    ]
+  },
+  {
+    "text": "Đang tải nội dung…",
+    "files": [
+      "src/RootRouter.tsx"
+    ]
+  }
+]

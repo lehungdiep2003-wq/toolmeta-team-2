@@ -1,0 +1,95 @@
+{
+  "slug": "bm/columns",
+  "category": "bm",
+  "title": "Ý nghĩa các cột BM",
+  "description": "Hướng dẫn ý nghĩa các cột bm theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    74,
+    75
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mỗi dòng trong bảng là một BM.",
+          "page": 74
+        }
+      ]
+    },
+    {
+      "id": "fields",
+      "title": "Tra cứu cột dữ liệu",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Cột",
+            "Ý nghĩa"
+          ],
+          "rows": [
+            [
+              "Ô chọn",
+              "Chọn BM cần thao tác."
+            ],
+            [
+              "STT",
+              "Số thứ tự."
+            ],
+            [
+              "Trạng thái",
+              "LIVE: BM đang hoạt động; DIE: bị vô hiệu hóa."
+            ],
+            [
+              "ID",
+              "ID của BM."
+            ],
+            [
+              "Xác minh DN",
+              "Trạng thái xác minh doanh nghiệp."
+            ],
+            [
+              "Thông tin BM",
+              "Tên BM."
+            ],
+            [
+              "Loại BM",
+              "Loại BM theo hạn mức tạo tài khoản quảng cáo."
+            ],
+            [
+              "Hoạt động",
+              "Kết quả hoặc thông báo lỗi khi chạy công cụ."
+            ],
+            [
+              "Level BM",
+              "Cấp độ BM."
+            ],
+            [
+              "Page",
+              "Số Trang trong BM."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-columns-p075-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 75",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 75",
+          "width": 1233,
+          "height": 589,
+          "page": 75
+        }
+      ]
+    }
+  ]
+}

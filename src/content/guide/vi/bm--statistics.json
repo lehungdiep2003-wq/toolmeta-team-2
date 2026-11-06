@@ -1,0 +1,29 @@
+{
+  "slug": "bm/statistics",
+  "category": "bm",
+  "title": "Thanh thống kê BM",
+  "description": "Hướng dẫn thanh thống kê bm theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    75,
+    76
+  ],
+  "sections": [
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-statistics-p076-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 76",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 76",
+          "width": 1233,
+          "height": 296,
+          "page": 76
+        }
+      ]
+    }
+  ]
+}

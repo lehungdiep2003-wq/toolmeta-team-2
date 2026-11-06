@@ -1,0 +1,15 @@
+{
+  "title": "Toolmeta — Quản lý tài sản quảng cáo tập trung",
+  "language": "vi",
+  "description": "Toolmeta giúp bạn theo dõi, quản lý và thao tác với tài khoản quảng cáo, Business Manager và Fanpage trên một nền tảng trực quan, chuyên nghiệp.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "customScripts": {
+    "headEnd": "<!-- Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '29034263682898552');\nfbq('track', 'PageView');\ndocument.addEventListener('click', function (e) {\n  var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;\n  if (!a) return;\n  var href = a.href || '';\n  if (href.indexOf('https://app.toolmeta.io') === 0) {\n    fbq('track', 'Lead', {content_name: 'Bat dau mien phi'});\n  } else if (href.indexOf('https://t.me/') === 0) {\n    fbq('track', 'Contact', {content_name: 'Telegram'});\n  }\n}, true);\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=29034263682898552&ev=PageView&noscript=1\"/></noscript>\n<!-- End Meta Pixel Code -->"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "bm/load",
+  "category": "bm",
+  "title": "Tải dữ liệu BM",
+  "description": "Hướng dẫn người dùng tải danh sách BM vào bảng trước khi xem thông tin hoặc chạy công cụ.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    76,
+    77,
+    78
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng tải danh sách BM vào bảng trước khi xem thông tin hoặc chạy công cụ.",
+          "page": 76
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 76
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu chức năng, chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 76
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn button [Bắt đầu] trên thanh công cụ. Hệ thống hiển thị popup: Phương thức tải.",
+          "page": 76
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện chọn phương thức tải và bật/ tắt lựa chọn tính năng",
+          "page": 77
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Tải dữ liệu]. Hệ thống hiển thị thông báo: Đã tải X mục thành công và  tải danh sách BM vào bảng.",
+          "page": 78
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/bm-load-p077-02.webp",
+          "caption": "Phương thức tải BM — bước 4",
+          "alt": "Phương thức tải BM — bước 4",
+          "width": 220,
+          "height": 174,
+          "page": 77,
+          "afterStep": "4"
+        }
+      ]
+    }
+  ]
+}

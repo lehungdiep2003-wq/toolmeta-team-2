@@ -1,0 +1,73 @@
+{
+  "slug": "bm/tools",
+  "category": "bm",
+  "title": "Thêm và ẩn công cụ BM",
+  "description": "Hướng dẫn người dùng chọn những công cụ hiển thị trong bảng công cụ, giúp gọn giao diện và chỉ giữ lại các công cụ thường dùng.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    85,
+    86,
+    87
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng chọn những công cụ hiển thị trong bảng công cụ, giúp gọn giao diện và chỉ giữ lại các công cụ thường dùng.",
+          "page": 85
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 85
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 85
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn [Thêm/Ẩn công cụ]. Hệ thống hiển thị popup: Thư viện công cụ",
+          "page": 85
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện tìm kiếm công cụ cần bật/tắt theo tên công cụ. Mỗi công cụ hiển thị dưới dạng thẻ gồm tên, mô tả ngắn và công tắc.",
+          "page": 86
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn toggle bật/tắt công cụ. Hệ thống hiển thị công cụ được bật danh sách công cụ ngoài màn hình.",
+          "page": 86
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Ẩn công cụ chỉ thay đổi hiển thị, không xóa công cụ. Có thể bật lại bất kỳ lúc nào trong Thư viện công cụ.",
+          "page": 87
+        }
+      ]
+    }
+  ]
+}

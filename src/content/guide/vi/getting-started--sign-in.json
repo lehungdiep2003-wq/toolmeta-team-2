@@ -1,0 +1,83 @@
+{
+  "slug": "getting-started/sign-in",
+  "category": "getting-started",
+  "title": "Đăng nhập và đồng bộ tài khoản",
+  "description": "Hướng dẫn người dùng đăng nhập tài khoản để extension kết nối với Toolmeta. Sau khi đăng nhập, người dùng truy cập được dữ liệu tài khoản và sử dụng các chức năng AD, BM, PAGE cùng các tiện ích khác.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    8,
+    9,
+    10
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng đăng nhập tài khoản để extension kết nối với Toolmeta. Sau khi đăng nhập, người dùng truy cập được dữ liệu tài khoản và sử dụng các chức năng AD, BM, PAGE cùng các tiện ích khác.",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 9
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn Dashboard .Hệ thống hiển thị màn hình Dashboard",
+          "page": 9
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn button [Đăng nhập]. Người dùng thực hiện nhập thông tin tài khoản và xác nhận đăng nhập.",
+          "page": 9
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Đăng nhập thành công, khung Thông Tin Tài Khoản hiển thị thông tin tài khoản hiện tại. Nếu thông tin chưa cập nhật, người dùng nhấn button [Đồng bộ tài khoản] trên banner.",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/getting-started-sign-in-p009-02.webp",
+          "caption": "Vị trí Đăng nhập trong khung tài khoản — bước 3",
+          "alt": "Vị trí Đăng nhập trong khung tài khoản — bước 3",
+          "width": 956,
+          "height": 252,
+          "page": 9,
+          "afterStep": "3"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Lưu ý trong tài liệu",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Phải hoàn thành cả 2 bước (cài extension và đăng nhập) thì các chức năng AD, BM, PAGE và tiện ích mới hoạt động.",
+          "page": 10
+        }
+      ]
+    }
+  ]
+}

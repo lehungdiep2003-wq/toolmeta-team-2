@@ -1,0 +1,78 @@
+{
+  "slug": "ad/load",
+  "category": "ad",
+  "title": "Tải dữ liệu AD",
+  "description": "Hướng dẫn người dùng tải danh sách tài khoản quảng cáo vào bảng theo phương thức phù hợp, trước khi xem thông tin hoặc chạy công cụ.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    18,
+    19,
+    20
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng tải danh sách tài khoản quảng cáo vào bảng theo phương thức phù hợp, trước khi xem thông tin hoặc chạy công cụ.",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 18
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn AD → Hệ thống hiển thị danh sách tài khoản quảng cáo.",
+          "page": 18
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng nhấn button [Bắt đầu] trên thanh công cụ. Hệ thống hiển thị popup: Phương thức tải.",
+          "page": 18
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện chọn phương thức tải và bật/ tắt lựa chọn tính năng",
+          "page": 19
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Tải dữ liệu]. Hệ thống hiển thị thông báo: Đã tải X mục thành công và  tải danh sách tài khoản vào bảng.",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/ad-load-p019-02.webp",
+          "caption": "Phương thức tải AD — bước 4",
+          "alt": "Phương thức tải AD — bước 4",
+          "width": 220,
+          "height": 174,
+          "page": 19,
+          "afterStep": "4"
+        }
+      ]
+    }
+  ]
+}

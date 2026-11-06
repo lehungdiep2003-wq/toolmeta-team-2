@@ -1,0 +1,28 @@
+{
+  "slug": "ad/toolbar",
+  "category": "ad",
+  "title": "Thanh công cụ AD",
+  "description": "Hướng dẫn thanh công cụ ad theo tài liệu Toolmeta.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    17
+  ],
+  "sections": [
+    {
+      "id": "screenshots",
+      "title": "Ảnh minh họa theo bước",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/guide-media/ad-toolbar-p017-01.webp",
+          "caption": "Bảng / biểu tượng trong tài liệu gốc — trang 17",
+          "alt": "Bảng / biểu tượng trong tài liệu gốc — trang 17",
+          "width": 1233,
+          "height": 440,
+          "page": 17
+        }
+      ]
+    }
+  ]
+}

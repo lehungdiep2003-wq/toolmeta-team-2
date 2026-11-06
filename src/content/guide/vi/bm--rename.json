@@ -1,0 +1,62 @@
+{
+  "slug": "bm/rename",
+  "category": "bm",
+  "title": "Đổi tên Business Manager",
+  "description": "Hướng dẫn người dùng đổi tên một hoặc nhiều BM cùng lúc.",
+  "status": "PUBLIC",
+  "locale": "vi",
+  "sourcePages": [
+    104,
+    105,
+    106
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Mục đích và thông tin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hướng dẫn người dùng đổi tên một hoặc nhiều BM cùng lúc.",
+          "page": 104
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Các bước thực hiện",
+      "blocks": [
+        {
+          "type": "step",
+          "number": "1",
+          "text": "Người dùng đăng nhập vào Toolmeta (đã cài extension).",
+          "page": 104
+        },
+        {
+          "type": "step",
+          "number": "2",
+          "text": "Tại menu người dùng chọn BM → Hệ thống hiển thị danh sách BM.",
+          "page": 104
+        },
+        {
+          "type": "step",
+          "number": "3",
+          "text": "Người dùng tick chọn BM cần đổi tên. Người dùng nhấn Đổi tên tại bảng công cụ > Hệ thống mở form nhập thông tin",
+          "page": 104
+        },
+        {
+          "type": "step",
+          "number": "4",
+          "text": "Người dùng thực hiện nhập dữ liệu hợp lệ vào tất cả trường bắt buộc.",
+          "page": 105
+        },
+        {
+          "type": "step",
+          "number": "5",
+          "text": "Người dùng nhấn button [Bắt đầu].  Hệ thống đổi tên các BM đã chọn và xem kết quả tại cột Hoạt động.",
+          "page": 106
+        }
+      ]
+    }
+  ]
+}

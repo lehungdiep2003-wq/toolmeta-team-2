@@ -1,0 +1,107 @@
+#pricing.pr-section { position: relative; isolation: isolate; background: #fff; padding-block: 112px; }
+#pricing .pr-layout { position: relative; display: grid; grid-template-columns: minmax(0,.96fr) minmax(0,1.04fr); gap: 64px; align-items: center; }
+#pricing .pr-copy { min-width: 0; }
+#pricing .pr-copy > .eyebrow { color: #2e3f66; font-size: 13px; letter-spacing: 1px; margin-bottom: 30px; }
+#pricing .pr-copy h2 { color: #09132e; font-size: clamp(38px,3.05vw,50px); line-height: 1.18; letter-spacing: -1.8px; font-weight: 700; margin: 0 0 25px; }
+#pricing .pr-copy h2 > span { display: inline-block; color: #105abb; background: linear-gradient(105deg,#1f74de,#1159b7); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#pricing .pr-description { margin: 0; max-width: 580px; font-size: 18px; line-height: 1.65; color: #747880; }
+#pricing .pr-additional { margin-top: 55px; padding: 3px 0 3px 24px; border-left: 4px solid var(--lime); }
+#pricing .pr-additional h3 { color: #192238; font-size: 16px; font-weight: 650; line-height: 1.4; margin: 0 0 7px; }
+#pricing .pr-additional p { color: #747880; font-size: 15px; line-height: 1.5; margin: 0; max-width: 510px; }
+#pricing .pr-card { position: relative; min-width: 0; padding: 40px; border: 1.3px solid #c1ccdd; border-radius: 32px; background: linear-gradient(135deg,#f8fbfff5,#ffffff 72%); box-shadow: 0 22px 65px #6389bd20, 0 3px 15px #16213b03; transition: border-color 220ms, box-shadow 220ms; }
+#pricing .pr-card-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 14px; padding-bottom: 28px; border-bottom: 1px solid #d7dee8; }
+#pricing .pr-plan { min-width: 0; padding-bottom: 1px; }
+#pricing .pr-plan > span { display: block; font-size: 12px; color: #7d828a; font-weight: 500; margin-bottom: 13px; }
+#pricing .pr-plan h3 { font-size: clamp(30px,2.65vw,40px); color: #121e3a; font-weight: 650; line-height: 1.2; letter-spacing: -1.2px; margin: 0; white-space: nowrap; }
+#pricing .pr-price-group { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+#pricing .pr-badge { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 9px 14px; border-radius: 99px; color: #141f38; background: var(--lime); font-size: 11px; line-height: 1.3; font-weight: 700; white-space: nowrap; }
+#pricing .pr-badge svg { flex-shrink: 0; }
+#pricing .pr-price { display: flex; align-items: baseline; justify-content: flex-end; gap: 8px; margin: 0; white-space: nowrap; }
+#pricing .pr-price strong { color: #09142f; font-size: 48px; font-weight: 700; line-height: 1.1; letter-spacing: -2px; }
+#pricing .pr-price > span { color: #757981; font-size: 12px; font-weight: 500; }
+#pricing .pr-card-description { font-size: 16px; line-height: 1.6; color: #747880; margin: 20px 0 24px; }
+#pricing .pr-features { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 24px; row-gap: 13px; list-style: none; margin: 0 0 32px; padding: 0; }
+#pricing .pr-features li { min-width: 0; display: flex; align-items: center; gap: 12px; color: #19243c; font-size: 16px; line-height: 1.5; }
+#pricing .pr-check { width: 32px; height: 32px; flex: 0 0 32px; display: grid; place-items: center; color: #16213b; background: linear-gradient(135deg,#bad6fb,#9dc5f8); border-radius: 50%; }
+#pricing .pr-cta { display: flex; align-items: center; justify-content: center; gap: 22px; width: 100%; min-height: 68px; padding: 16px 20px; border-radius: 19px; background: linear-gradient(110deg,#4391f5,#3589f4); color: #121e35; font-size: 19px; line-height: 1.35; font-weight: 700; box-shadow: 0 13px 25px #5095ec38; transition: transform 220ms, box-shadow 220ms; }
+#pricing .pr-cta svg { flex-shrink: 0; transition: transform 220ms; }
+#pricing .pr-cta:focus-visible { outline: 3px solid #16213b; outline-offset: 5px; }
+#pricing .pr-cta:active { transform: translateY(1px); }
+#pricing .pr-decoration { position: absolute; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+#pricing .pr-decoration::before { content: ""; position: absolute; left: -12%; bottom: -22%; width: 54%; height: 55%; background: radial-gradient(ellipse,#e5edf8b3,transparent 70%); }
+#pricing .pr-ambient-glow { position: absolute; inset: -4% -5% 2% 46%; background: radial-gradient(ellipse,#cddef69c,transparent 68%); opacity: .88; animation: pr-breathe 8s ease-in-out infinite; }
+#pricing .pr-corner-shape { position: absolute; right: 5%; top: 8%; width: 100px; height: 123px; border: 1px solid #cbdcf3; border-radius: 18px; background: linear-gradient(140deg,#e6f0fd,#cbdffa99); transform: rotate(18deg); animation: pr-shape 10s ease-in-out infinite; }
+#pricing .pr-ring { position: absolute; width: 420px; height: 420px; left: -200px; bottom: -250px; border: 72px solid #cfdcee66; border-radius: 50%; box-shadow: 0 0 0 1px #cbdaee88; }
+#pricing .pr-dot-pattern { position: absolute; width: 90px; height: 80px; left: 17%; bottom: 10%; background: radial-gradient(circle,#b8cce7 2.5px,transparent 3px) 0 0 / 22px 22px; opacity: .65; }
+#pricing .pr-orb { position: absolute; display: block; border-radius: 50%; background: radial-gradient(circle at 25% 20%,#e0ecfd,#8db9f4 70%,#7dabe7); animation: pr-orb-float 7s ease-in-out infinite; }
+#pricing .pr-orb-large { width: 58px; height: 58px; right: 4%; bottom: 19%; opacity: .65; }
+#pricing .pr-orb-small { width: 9px; height: 9px; right: 15%; top: 8%; animation-duration: 8.2s; animation-delay: -3s; }
+#pricing .pr-orbit { position: absolute; width: 100%; height: 78%; left: 0; bottom: 6%; opacity: .8; }
+#pricing:not([data-motion="true"]) :is(.pr-ambient-glow,.pr-corner-shape,.pr-orb) { animation-play-state: paused; }
+@media (hover:hover) and (pointer:fine) {
+  #pricing .pr-card:hover { border-color: #9eb4d2; box-shadow: 0 26px 70px #6389bd28, 0 3px 15px #16213b05; }
+  #pricing .pr-cta:hover { transform: translateY(-2px); box-shadow: 0 17px 30px #4a8adc4a; }
+  #pricing .pr-cta:hover svg { transform: translateX(4px); }
+}
+@media (min-width:768px) and (max-width:1279px) {
+  #pricing .pr-layout { grid-template-columns: minmax(0,1fr); gap: 45px; max-width: 780px; }
+  #pricing .pr-copy h2 { font-size: 46px; }
+  #pricing .pr-copy { max-width: 700px; }
+  #pricing .pr-additional { margin-top: 30px; }
+  #pricing .pr-card { padding: 40px 44px; }
+  #pricing .pr-plan h3 { font-size: 40px; }
+  #pricing .pr-dot-pattern { left: 5%; bottom: 4%; }
+  #pricing .pr-ambient-glow { inset: 25% -10% -5% 0; }
+}
+@media (max-width:767px) {
+  #pricing.pr-section { padding-block: 72px; }
+  #pricing .pr-layout { grid-template-columns: minmax(0,1fr); gap: 34px; }
+  #pricing .pr-copy > .eyebrow { font-size: 12px; margin-bottom: 23px; }
+  #pricing .pr-copy h2 { font-size: clamp(34px,9vw,42px); line-height: 1.22; letter-spacing: -1.35px; margin-bottom: 20px; }
+  #pricing .pr-description { font-size: 16px; line-height: 1.7; }
+  #pricing .pr-additional { margin-top: 27px; padding-left: 17px; }
+  #pricing .pr-additional h3 { font-size: 15px; }
+  #pricing .pr-additional p { font-size: 14px; }
+  #pricing .pr-card { padding: 24px 22px; border-radius: 28px; }
+  #pricing .pr-card-head { flex-direction: column; align-items: stretch; gap: 18px; padding-bottom: 22px; }
+  #pricing .pr-plan h3 { font-size: 35px; }
+  #pricing .pr-plan > span { margin-bottom: 7px; }
+  #pricing .pr-price-group { align-items: flex-start; gap: 17px; }
+  #pricing .pr-badge { font-size: 10px; padding: 8px 12px; }
+  #pricing .pr-price { justify-content: flex-start; }
+  #pricing .pr-price strong { font-size: 48px; }
+  #pricing .pr-price > span { font-size: 13px; }
+  #pricing .pr-card-description { font-size: 15px; margin: 19px 0 22px; }
+  #pricing .pr-features { grid-template-columns: minmax(0,1fr); gap: 13px; margin-bottom: 27px; }
+  #pricing .pr-features li { font-size: 16px; }
+  #pricing .pr-check { width: 32px; height: 32px; flex-basis: 32px; }
+  #pricing .pr-cta { min-height: 58px; padding: 14px 12px; font-size: 17px; gap: 17px; border-radius: 17px; }
+  #pricing .pr-dot-pattern, #pricing .pr-corner-shape, #pricing .pr-orb-small { display: none; }
+  #pricing .pr-ring { width: 270px; height: 270px; left: -190px; bottom: -170px; border-width: 45px; }
+  #pricing .pr-orb-large { right: -15px; bottom: 8%; width: 44px; height: 44px; opacity: .4; }
+  #pricing .pr-ambient-glow { inset: 36% -20% 0 -20%; }
+  #pricing .pr-orbit { opacity: .35; }
+}
+#pricing .pr-scope-note { font-size: 13px; line-height: 1.65; color: var(--muted); margin: -8px 0 24px; }
+#pricing .pr-card-head { flex-wrap: wrap; }
+#pricing .pr-plan h3 { white-space: normal; font-size: clamp(26px,2.65vw,36px); }
+#pricing .pr-features li { align-items: flex-start; }
+#pricing[data-reveal="running"] .pr-copy > * { animation: pr-enter 650ms ease both; }
+#pricing[data-reveal="running"] .pr-copy h2 { animation-delay: 80ms; }
+#pricing[data-reveal="running"] .pr-description { animation-delay: 160ms; }
+#pricing[data-reveal="running"] .pr-additional { animation-delay: 240ms; }
+#pricing[data-reveal="running"] .pr-card { animation: pr-card-enter 700ms ease 320ms both; }
+#pricing[data-reveal="running"] .pr-features li { animation: pr-enter 600ms ease 480ms both; }
+#pricing[data-reveal="running"] .pr-features li:nth-child(n+3) { animation-delay: 560ms; }
+#pricing[data-reveal="running"] .pr-features li:nth-child(n+5) { animation-delay: 640ms; }
+#pricing[data-reveal="running"] .pr-features li:nth-child(7) { animation-delay: 720ms; }
+#pricing .pr-card:focus-within { animation: none !important; }
+@keyframes pr-enter { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pr-card-enter { from { opacity: 0; transform: translateY(20px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes pr-breathe { 0%,100% { opacity: .88; } 50% { opacity: .94; } }
+@keyframes pr-orb-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes pr-shape { 0%,100% { transform: translateY(0) rotate(18deg); } 50% { transform: translateY(-5px) rotate(18deg); } }
+@media (prefers-reduced-motion:reduce) {
+  #pricing *, #pricing *::before, #pricing *::after { animation: none !important; transition: none !important; }
+  #pricing .pr-cta:hover, #pricing .pr-cta:hover svg { transform: none; }
+}
