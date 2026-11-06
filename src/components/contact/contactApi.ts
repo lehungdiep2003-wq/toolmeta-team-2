@@ -21,8 +21,31 @@ export class ContactApiError extends Error {
   }
 }
 
+/**
+ * Endpoint dự phòng khi không đặt biến môi trường VITE_CONTACT_API_URL
+ * (vd deploy tĩnh không cấu hình env lúc build). Dán URL Google Apps Script
+ * Web App vào đây — đây là endpoint công khai, không phải secret.
+ */
+const CONTACT_ENDPOINT_FALLBACK =
+  "https://script.google.com/macros/s/AKfycbx_zZrt5VVoZGLXrqiciHxli1QwuRuAFMuXE_IYeHPuINXRGbQ5jum4aqfLOxjF3k3g/exec"
+
 export function getContactEndpoint(): string {
-  return (import.meta.env.VITE_CONTACT_API_URL ?? "").trim()
+  return (
+    import.meta.env.VITE_CONTACT_API_URL ?? CONTACT_ENDPOINT_FALLBACK
+  ).trim()
+}
+
+/** Endpoint khác origin hiện tại (vd Google Apps Script) cần chế độ gửi riêng. */
+function isCrossOrigin(endpoint: string): boolean {
+  if (!/^https?:\/\//i.test(endpoint)) return false
+  try {
+    return (
+      typeof window !== "undefined" &&
+      new URL(endpoint).origin !== window.location.origin
+    )
+  } catch {
+    return false
+  }
 }
 
 interface SubmitOptions {
@@ -56,18 +79,24 @@ export async function submitContact(
     timedOut = true
     controller.abort()
   }, 20000)
+  const crossOrigin = isCrossOrigin(endpoint)
   try {
     const response = await (options.fetcher ?? fetch)(endpoint, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
+        // Cross-origin (vd Google Apps Script): text/plain để tránh CORS
+        // preflight; backend vẫn đọc được JSON trong body.
+        "Content-Type": crossOrigin
+          ? "text/plain;charset=UTF-8"
+          : "application/json",
         Accept: "application/json",
         "Accept-Language": siteLanguageStore.getSnapshot().code,
       },
       body: JSON.stringify(toContactPayload(payload)),
       signal: controller.signal,
-      credentials: "same-origin",
-      redirect: "error",
+      credentials: crossOrigin ? "omit" : "same-origin",
+      // Apps Script trả 302 tới googleusercontent; cross-origin cần follow.
+      redirect: crossOrigin ? "follow" : "error",
       cache: "no-store",
     })
     const json = response.headers
